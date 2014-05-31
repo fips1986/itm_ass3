@@ -1,0 +1,14 @@
+2014-05-31 04:33:06,296 [http-8080-1] ERROR com.xuggle.ferry.JNILibraryLoader - Could not load library: xuggle-xuggler; version: 3; Visit http://www.xuggle.com/xuggler/faq/ to find common solutions to this problem
+2014-05-31 04:34:51,832 [http-8080-2] ERROR com.xuggle.ferry.JNILibraryLoader - Could not load library: xuggle-xuggler; version: 3; Visit http://www.xuggle.com/xuggler/faq/ to find common solutions to this problem
+2014-05-31 04:41:06,628 [http-8080-1] ERROR com.xuggle.ferry.JNILibraryLoader - Could not load library: xuggle-xuggler; version: 3; Visit http://www.xuggle.com/xuggler/faq/ to find common solutions to this problem
+2014-05-31 04:42:24,556 [http-8080-1] ERROR com.xuggle.ferry.JNILibraryLoader - Could not load library: xuggle-xuggler; version: 3; Visit http://www.xuggle.com/xuggler/faq/ to find common solutions to this problem
+2014-05-31 04:46:05,448 [http-8080-1] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+2014-05-31 04:46:05,459 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7fb74703dba0] Header missing
+2014-05-31 04:46:05,558 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-05-31 04:46:05,559 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-05-31 04:46:05,561 [http-8080-1] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-05-31 04:46:05,561 [http-8080-1] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-05-31 04:46:05,564 [http-8080-1] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-05-31 04:46:05,564 [http-8080-1] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-05-31 04:46:05,564 [http-8080-1] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-05-31 04:46:05,618 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7fb7744109c0] Header missing

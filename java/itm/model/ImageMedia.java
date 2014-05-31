@@ -21,13 +21,14 @@ public class ImageMedia extends AbstractMedia {
 	public final static int ORIENTATION_LANDSCAPE = 0;
 	public final static int ORIENTATION_PORTRAIT = 1;
 
-	// ***************************************************************
-	// Fill in your code here!
-	// ***************************************************************
-
-	// add required properties (scope: protected!)
-
-	// add get/set methods for the properties
+	protected int width;
+	protected int height;
+	protected int numComponents;
+	protected int numColorComponents;
+	protected int transparency;
+	protected int pixelSize;
+	protected int colorSpaceType;
+	protected int orientation;
 
 	/**
 	 * Constructor.
@@ -112,19 +113,25 @@ public class ImageMedia extends AbstractMedia {
 	@Override
 	public StringBuffer serializeObject() throws IOException {
 		StringWriter data = new StringWriter();
+		
 		// print writer for creating the output
 		PrintWriter out = new PrintWriter(data);
+		
 		// print type
 		out.println("type: image");
-		StringBuffer sup = super.serializeObject();
+		
 		// print the serialization of the superclass (AbstractMedia)
+		StringBuffer sup = super.serializeObject();
 		out.print(sup);
 
-		// ***************************************************************
-		// Fill in your code here!
-		// ***************************************************************
-
-		// print properties
+		out.println("width: " + getWidth());
+		out.println("height: " + getHeight());
+		out.println("numComponents: " + getNumComponents());
+		out.println("numColorComponents: " + getNumColorComponents());
+		out.println("transparency: " + getTransparency());
+		out.println("pixelSize: " + getPixelSize());
+		out.println("orientation: " + getOrientation());
+		out.println("colorSpaceType: " + serializeCSType(getColorSpaceType())); 
 
 		return data.getBuffer();
 	}
@@ -139,14 +146,105 @@ public class ImageMedia extends AbstractMedia {
 		StringReader sr = new StringReader(data);
 		BufferedReader br = new BufferedReader(sr);
 		String line = null;
+		
 		while ((line = br.readLine()) != null) {
+			if (line.startsWith("width: ")) {
+				setWidth(Integer.parseInt(line.substring("width: ".length())));
 
-			// ***************************************************************
-			// Fill in your code here!
-			// ***************************************************************
-
-			// read and set properties
-
+			} else if (line.startsWith("height: ")) {
+				setHeight(Integer.parseInt(line.substring("height: ".length())));
+			
+			} else if (line.startsWith("numComponents: ")) {
+				setNumComponents(Integer.parseInt(line.substring("numComponents: ".length())));
+				
+			} else if (line.startsWith("numColorComponents: ")) {
+				setNumColorComponents(Integer.parseInt(line.substring("numColorComponents: ".length())));
+			
+			} else if (line.startsWith("transparency: ")) {
+				setTransparency(Integer.parseInt(line.substring("transparency: ".length())));
+			
+			} else if (line.startsWith("pixelSize: ")) {
+				setPixelSize(Integer.parseInt(line.substring("pixelSize: ".length())));
+			
+			} else if (line.startsWith("orientation: ")) {
+				switch (Integer.parseInt(line.substring("orientation: ".length()))) {
+					case ORIENTATION_LANDSCAPE:
+						setOrientation(ORIENTATION_LANDSCAPE);
+						break;
+					case ORIENTATION_PORTRAIT:
+						setOrientation(ORIENTATION_PORTRAIT);
+						break;
+					default:
+						throw new IllegalArgumentException("Invalid orientation");
+				}
+			
+			} else if (line.startsWith("colorSpaceType: ")) { 
+				setColorSpaceType(deserializeCSType(line.substring("colorSpaceType: ".length())));
+			}
 		}
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	public int getNumComponents() {
+		return numComponents;
+	}
+
+	public void setNumComponents(int numComponents) {
+		this.numComponents = numComponents;
+	}
+
+	public int getNumColorComponents() {
+		return numColorComponents;
+	}
+
+	public void setNumColorComponents(int numColorComponents) {
+		this.numColorComponents = numColorComponents;
+	}
+
+	public int getTransparency() {
+		return transparency;
+	}
+
+	public void setTransparency(int transparency) {
+		this.transparency = transparency;
+	}
+
+	public int getPixelSize() {
+		return pixelSize;
+	}
+
+	public void setPixelSize(int pixelSize) {
+		this.pixelSize = pixelSize;
+	}
+
+	public int getColorSpaceType() {
+		return colorSpaceType;
+	}
+
+	public void setColorSpaceType(int colorSpaceType) {
+		this.colorSpaceType = colorSpaceType;
+	}
+
+	public int getOrientation() {
+		return orientation;
+	}
+
+	public void setOrientation(int orientation) {
+		this.orientation = orientation;
 	}
 }

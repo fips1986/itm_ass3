@@ -5,9 +5,26 @@ package itm.video;
  (c) University of Vienna 2009-2014
  *******************************************************************************/
 
+import itm.util.VideoUtil;
+
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import com.xuggle.mediatool.IMediaWriter;
+import com.xuggle.mediatool.ToolFactory;
+import com.xuggle.xuggler.IContainer;
+import com.xuggle.xuggler.IPacket;
+import com.xuggle.xuggler.IPixelFormat;
+import com.xuggle.xuggler.IRational;
+import com.xuggle.xuggler.IStream;
+import com.xuggle.xuggler.IStreamCoder;
+import com.xuggle.xuggler.IVideoPicture;
+import com.xuggle.xuggler.IVideoResampler;
+import com.xuggle.xuggler.Utils;
 
 /**
  * This class reads video files, extracts metadata for both the audio and the
@@ -23,6 +40,7 @@ import java.util.ArrayList;
  * thrown.
  */
 public class VideoThumbnailGenerator {
+	private final static IPixelFormat.Type DEFAULT_PIXEL_FORMAT_TYPE = IPixelFormat.Type.BGR24;
 
 	/**
 	 * Constructor.
@@ -108,19 +126,74 @@ public class VideoThumbnailGenerator {
 		// create output file and check whether it already exists.
 		File outputFile = new File(output, input.getName() + "_thumb.swf");
 
-		// ***************************************************************
-		// Fill in your code here!
-		// ***************************************************************
+		IContainer container = VideoUtil.openVideoContainer(input);
+		IStream stream = VideoUtil.getFirstVideoStream(container);
+		IStreamCoder coder = stream.getStreamCoder();
+		int streamID = stream.getId();
+
+		VideoUtil.openCoder(coder);
+
+		// leave resampler null if it does not need resampling
+		IVideoResampler resampler = null;
+		if (coder.getPixelType() != DEFAULT_PIXEL_FORMAT_TYPE) {
+			resampler = VideoUtil.getResampler(coder, DEFAULT_PIXEL_FORMAT_TYPE);
+		}
 
 		// extract frames from input video
+		// save them in here
+		List<BufferedImage> thumbPics = new ArrayList<>();
+
+		// get interval between thumbnail frames in nanoseconds
+		// pts = presentation time stamp
+		long ptsBetweenFrames = container.getDuration() / 10;
+		long ptsLastFrame = -ptsBetweenFrames;
+
+		// iterate trough packets
+		IPacket packet = IPacket.make();
+		while(container.readNextPacket(packet) >= 0) {
+			// only use packets from video stream
+			if (packet.getStreamIndex() == streamID) {
+				IVideoPicture picture = VideoUtil.getPicture(coder);
+
+				int offset = 0;
+				while(offset < packet.getSize()) {
+					int bytesDecoded = VideoUtil.decodePicture(coder, picture, packet, offset);
+					offset += bytesDecoded;
+
+					if (picture.isComplete()) {
+						// resample only if neccessary
+						IVideoPicture newPic = picture;
+						if (resampler != null) {
+							newPic = VideoUtil.resample(picture, resampler);
+						}
+
+						if (newPic.getPts() - ptsLastFrame >= ptsBetweenFrames) {
+							@SuppressWarnings("deprecation")
+							BufferedImage image = Utils.videoPictureToImage(newPic);
+							thumbPics.add(image);
+							ptsLastFrame += ptsBetweenFrames;
+						}
+					}
+				}
+			}
+		}
 
 		// create a video writer
+		IMediaWriter writer = ToolFactory.makeWriter(outputFile.getAbsolutePath());
 
 		// add a stream with the proper width, height and frame rate
-		
+		// framerate 1/1
+		writer.addVideoStream(0, 0, IRational.make(1, 1), coder.getWidth(), coder.getHeight());
+
 		// loop: get the frame image, encode the image to the video stream
-		
+		int second = 0;
+		for (BufferedImage image : thumbPics) {
+			writer.encodeVideo(0, image, second, TimeUnit.SECONDS);
+			second++;
+		}
+
 		// Close the writer
+		writer.close();
 
 		return outputFile;
 	}
@@ -130,9 +203,6 @@ public class VideoThumbnailGenerator {
 	 * information if required.
 	 */
 	public static void main(String[] args) throws Exception {
-
-		// args = new String[] {"./media/video", "./media/md"};
-
 		if (args.length < 2) {
 			System.out.println("usage: java itm.video.VideoThumbnailGenerator <input-video> <output-directory>");
 			System.out.println("usage: java itm.video.VideoThumbnailGenerator <input-directory> <output-directory>");

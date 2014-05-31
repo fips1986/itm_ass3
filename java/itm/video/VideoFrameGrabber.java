@@ -5,9 +5,24 @@ package itm.video;
  (c) University of Vienna 2009-2014
  *******************************************************************************/
 
+import itm.util.VideoUtil;
+
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+
+import javax.imageio.ImageIO;
+
+import com.xuggle.xuggler.ICodec;
+import com.xuggle.xuggler.IContainer;
+import com.xuggle.xuggler.IPacket;
+import com.xuggle.xuggler.IPixelFormat;
+import com.xuggle.xuggler.IStream;
+import com.xuggle.xuggler.IStreamCoder;
+import com.xuggle.xuggler.IVideoPicture;
+import com.xuggle.xuggler.IVideoResampler;
+import com.xuggle.xuggler.Utils;
 
 /**
  * 
@@ -36,7 +51,8 @@ public class VideoFrameGrabber {
 	 * @param output
 	 *            a reference to the output directory
 	 */
-	public ArrayList<File> batchProcessVideoFiles(File input, File output) throws IOException {
+	public ArrayList<File> batchProcessVideoFiles(File input, File output)
+			throws IOException {
 		if (!input.exists())
 			throw new IOException("Input file " + input + " was not found!");
 		if (!output.exists())
@@ -52,9 +68,11 @@ public class VideoFrameGrabber {
 				if (f.isDirectory())
 					continue;
 
-				String ext = f.getName().substring(f.getName().lastIndexOf(".") + 1).toLowerCase();
-				if (ext.equals("avi") || ext.equals("swf") || ext.equals("asf") || ext.equals("flv")
-						|| ext.equals("mp4")) {
+				String ext = f.getName()
+						.substring(f.getName().lastIndexOf(".") + 1)
+						.toLowerCase();
+				if (ext.equals("avi") || ext.equals("swf") || ext.equals("asf")
+						|| ext.equals("flv") || ext.equals("mp4")) {
 					File result = processVideo(f, output);
 					System.out.println("converted " + f + " to " + result);
 					ret.add(result);
@@ -63,8 +81,11 @@ public class VideoFrameGrabber {
 			}
 
 		} else {
-			String ext = input.getName().substring(input.getName().lastIndexOf(".") + 1).toLowerCase();
-			if (ext.equals("avi") || ext.equals("swf") || ext.equals("asf") || ext.equals("flv") || ext.equals("mp4")) {
+			String ext = input.getName()
+					.substring(input.getName().lastIndexOf(".") + 1)
+					.toLowerCase();
+			if (ext.equals("avi") || ext.equals("swf") || ext.equals("asf")
+					|| ext.equals("flv") || ext.equals("mp4")) {
 				File result = processVideo(input, output);
 				System.out.println("converted " + input + " to " + result);
 				ret.add(result);
@@ -82,7 +103,9 @@ public class VideoFrameGrabber {
 	 * @param output
 	 *            a reference to the output directory
 	 */
-	protected File processVideo(File input, File output) throws IOException, IllegalArgumentException {
+	@SuppressWarnings("deprecation")
+	protected File processVideo(File input, File output) throws IOException,
+			IllegalArgumentException {
 		if (!input.exists())
 			throw new IOException("Input file " + input + " was not found!");
 		if (input.isDirectory())
@@ -99,8 +122,61 @@ public class VideoFrameGrabber {
 		// Fill in your code here!
 		// ***************************************************************
 
-		return outputFile;
+		IContainer container = VideoUtil.openVideoContainer(input);
+		IStreamCoder coder = null;
+		IPacket packet = null;
+		IVideoResampler resampler = null;
+		int streamIndex = 0;
 
+		// Get Video-Coder
+		for (int i = 0; i < container.getNumStreams(); i++) {
+			IStream stream = container.getStream(i);
+			IStreamCoder tmp_coder = stream.getStreamCoder();
+
+			if (tmp_coder.getCodecType() == ICodec.Type.CODEC_TYPE_VIDEO) {
+				coder = tmp_coder;
+				streamIndex = stream.getIndex();
+				break;
+			}
+		}
+
+		// Open Coder
+		VideoUtil.openCoder(coder);
+
+		// Create Resampler
+		resampler = VideoUtil.getResampler(coder, IPixelFormat.Type.BGR24);
+
+		// Create new Packet
+		packet = IPacket.make();
+
+		while (container.readNextPacket(packet) >= 0) {
+
+			if (packet.getStreamIndex() == streamIndex) {
+
+				IVideoPicture picture = VideoUtil.getPicture(coder);
+				coder.decodeVideo(picture, packet, 0);
+
+				if (picture.getPts() >= container.getDuration() / 2) {
+					BufferedImage img = null;
+
+					if (resampler != null) {
+						IVideoPicture newPicture = IVideoPicture.make(
+								resampler.getOutputPixelFormat(),
+								picture.getWidth(), picture.getHeight());
+						resampler.resample(newPicture, picture);
+						img = Utils.videoPictureToImage(newPicture);
+
+					} else {
+						img = Utils.videoPictureToImage(picture);
+					}
+					ImageIO.write(img, "jpg", outputFile);
+
+					break;
+				}
+			}
+		}
+
+		return outputFile;
 	}
 
 	/**
@@ -108,12 +184,11 @@ public class VideoFrameGrabber {
 	 * information if required.
 	 */
 	public static void main(String[] args) throws Exception {
-
-		// args = new String[] { "./media/video", "./test" };
-
 		if (args.length < 2) {
-			System.out.println("usage: java itm.video.VideoFrameGrabber <input-videoFile> <output-directory>");
-			System.out.println("usage: java itm.video.VideoFrameGrabber <input-directory> <output-directory>");
+			System.out
+					.println("usage: java itm.video.VideoFrameGrabber <input-videoFile> <output-directory>");
+			System.out
+					.println("usage: java itm.video.VideoFrameGrabber <input-directory> <output-directory>");
 			System.exit(1);
 		}
 		File fi = new File(args[0]);
