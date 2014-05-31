@@ -1,0 +1,17 @@
+type: audio
+file: /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/kahvi139a_dalekk-modular.ogg
+name: kahvi139a_dalekk-modular.ogg
+size: 8401646 bytes (8401kB)
+tags: audio,ogg,
+encoding: VORBISENC
+author: dalekk
+title: modular
+comment: no data available
+album: http://www.kahvi.org
+track: 1
+composer: no data available
+genre: electronic
+frequency: 44100.0
+bitrate: 192003
+channels: 2
+date: 2005

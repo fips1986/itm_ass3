@@ -7,10 +7,18 @@ package itm.audio;
 
 import itm.model.AudioMedia;
 import itm.model.MediaFactory;
+import itm.util.IOUtil;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Map;
+
+import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.UnsupportedAudioFileException;
 
 /**
  * This class reads audio files of various formats and stores some basic audio
@@ -58,8 +66,9 @@ public class AudioMetadataGenerator {
 			File[] files = input.listFiles();
 			for (File f : files) {
 
-				String ext = f.getName().substring(
-						f.getName().lastIndexOf(".") + 1).toLowerCase();
+				String ext = f.getName()
+						.substring(f.getName().lastIndexOf(".") + 1)
+						.toLowerCase();
 				if (ext.equals("wav") || ext.equals("mp3") || ext.equals("ogg")) {
 					try {
 						AudioMedia result = processAudio(f, output, overwrite);
@@ -77,8 +86,9 @@ public class AudioMetadataGenerator {
 			}
 		} else {
 
-			String ext = input.getName().substring(
-					input.getName().lastIndexOf(".") + 1).toLowerCase();
+			String ext = input.getName()
+					.substring(input.getName().lastIndexOf(".") + 1)
+					.toLowerCase();
 			if (ext.equals("wav") || ext.equals("mp3") || ext.equals("ogg")) {
 				try {
 					AudioMedia result = processAudio(input, output, overwrite);
@@ -109,9 +119,12 @@ public class AudioMetadataGenerator {
 	 *            indicates whether existing metadata files should be
 	 *            overwritten or not
 	 * @return the created image media object
+	 * @throws UnsupportedAudioFileException
+	 * @throws ParseException
 	 */
 	protected AudioMedia processAudio(File input, File output, boolean overwrite)
-			throws IOException, IllegalArgumentException {
+			throws IOException, IllegalArgumentException,
+			UnsupportedAudioFileException, ParseException {
 		if (!input.exists())
 			throw new IOException("Input file " + input + " was not found!");
 		if (input.isDirectory())
@@ -133,25 +146,70 @@ public class AudioMetadataGenerator {
 				return media;
 			}
 
-		
-		// ***************************************************************
-		// Fill in your code here!
-		// ***************************************************************
-
 		// create an audio metadata object
-		AudioMedia media = (AudioMedia) MediaFactory.createMedia(input);		
+		AudioMedia media = (AudioMedia) MediaFactory.createMedia(input);
 
 		// load the input audio file, do not decode
+		AudioInputStream audio = AudioSystem.getAudioInputStream(input);
 
 		// read AudioFormat properties
+		AudioFormat format = audio.getFormat();
+		Map<String, Object> formatProps = format.properties();
+
+		for (Map.Entry<String, Object> entry : formatProps.entrySet()) {
+			if (entry.getKey().equalsIgnoreCase("bitrate"))
+				media.setBitrate((int) entry.getValue());
+		}
+
+		media.setEncoding(format.getEncoding().toString());
+		media.setFrequency(format.getSampleRate());
+		media.setChannels(format.getChannels());
 
 		// read file-type specific properties
+		Map<String, Object> fileProps = AudioSystem.getAudioFileFormat(input).properties();
 
-		// you might have to distinguish what properties are available for what audio format
+		// you might have to distinguish what properties are available for what
+		// audio format
+		for (Map.Entry<String, Object> entry : fileProps.entrySet()) {
+			if (entry.getKey().equalsIgnoreCase("duration"))
+				media.setDuration((long) entry.getValue());
+
+			else if (entry.getKey().equalsIgnoreCase("author"))
+				media.setAuthor((String) entry.getValue());
+
+			else if (entry.getKey().equalsIgnoreCase("title"))
+				media.setTitle((String) entry.getValue());
+
+			else if (entry.getKey().equalsIgnoreCase("date"))
+				media.setDate((String) entry.getValue());
+
+			else if (entry.getKey().equalsIgnoreCase("comment"))
+				media.setComment((String) entry.getValue());
+
+			else if (entry.getKey().equalsIgnoreCase("album"))
+				media.setAlbum((String) entry.getValue());
+
+			else if (entry.getKey().equalsIgnoreCase("track") || entry.getKey().equalsIgnoreCase("mp3.id3tag.track") || entry.getKey().equalsIgnoreCase("ogg.comment.track"))
+				media.setTrack((String) entry.getValue());
+
+			else if (entry.getKey().equalsIgnoreCase("composer") || entry.getKey().equalsIgnoreCase("mp3.id3tag.composer") || entry.getKey().equalsIgnoreCase("ogg.comment.composer"))
+				media.setComposer((String) entry.getValue());
+
+			else if (entry.getKey().equalsIgnoreCase("genre") || entry.getKey().equalsIgnoreCase("mp3.id3tag.genre") || entry.getKey().equalsIgnoreCase("ogg.comment.genre"))
+				media.setGenre((String) entry.getValue());
+		}
 
 		// add a "audio" tag
+		media.addTag("audio");
+		
+		// add a tag corresponding to the filename extension of the file to the media
+		String filename = input.getName();
+		String ext = filename.substring(filename.lastIndexOf(".")+1).toLowerCase();
+		media.addTag(ext);
 
 		// close the audio and write the md file.
+		audio.close();
+		IOUtil.writeFile(media.serializeObject(), outputFile);
 
 		return media;
 	}
@@ -161,9 +219,6 @@ public class AudioMetadataGenerator {
 	 * information if required.
 	 */
 	public static void main(String[] args) throws Exception {
-
-		//args = new String[] { "./media/audio", "./media/md" };
-		
 		if (args.length < 2) {
 			System.out
 					.println("usage: java itm.image.AudioMetadataGenerator <input-image> <output-directory>");
@@ -171,6 +226,7 @@ public class AudioMetadataGenerator {
 					.println("usage: java itm.image.AudioMetadataGenerator <input-directory> <output-directory>");
 			System.exit(1);
 		}
+
 		File fi = new File(args[0]);
 		File fo = new File(args[1]);
 		AudioMetadataGenerator audioMd = new AudioMetadataGenerator();

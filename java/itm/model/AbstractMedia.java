@@ -136,7 +136,8 @@ public abstract class AbstractMedia {
 		PrintWriter out = new PrintWriter(data);
 		out.println("file: " + getInstance());
 		out.println("name: " + getName());
-		out.println("size: " + getSize() + " bytes (" + getSize() / 1000 + "kB)");
+		out.println("size: " + getSize() + " bytes (" + getSize() / 1000
+				+ "kB)");
 		out.print("tags: ");
 		for (String tag : tags)
 			out.print(tag + ",");
@@ -155,13 +156,17 @@ public abstract class AbstractMedia {
 			if (line.startsWith("file: ")) {
 				File f = new File(line.substring("file: ".length()));
 				setInstance(f);
-			} else if (line.startsWith("name: "))
+
+			} else if (line.startsWith("name: ")) {
 				setName(line.substring("name: ".length()));
-			else if (line.startsWith("size: "))
-				;
-			// no need to set size - will be calculated from media file directly
-			else if (line.startsWith("tags: ")) {
-				StringTokenizer st = new StringTokenizer(line.substring("tags: ".length()), ",");
+
+			} else if (line.startsWith("size: ")) {
+				// no need to set size - will be calculated from media file
+				// directly
+
+			} else if (line.startsWith("tags: ")) {
+				StringTokenizer st = new StringTokenizer(
+						line.substring("tags: ".length()), ",");
 				while (st.hasMoreTokens()) {
 					String tag = st.nextToken().trim();
 					addTag(tag);

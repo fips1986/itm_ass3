@@ -1,8 +1,8 @@
 package itm.util;
 
 /*******************************************************************************
- This file is part of the ITM course 2014
- (c) University of Vienna 2009-2014
+    This file is part of the ITM course 2014
+    (c) University of Vienna 2009-2014
  *******************************************************************************/
 
 import java.awt.Color;

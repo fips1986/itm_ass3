@@ -5,12 +5,15 @@ package itm.audio;
  (c) University of Vienna 2009-2014
  *******************************************************************************/
 
+import itm.util.AudioUtil;
+
 import java.io.File;
 import java.io.IOException;
 
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.SourceDataLine;
 import javax.sound.sampled.UnsupportedAudioFileException;
@@ -77,21 +80,8 @@ public class AudioPlayer {
 	private AudioInputStream openAudioInputStream(File input)
 			throws UnsupportedAudioFileException, IOException {
 
-		AudioInputStream din = null;
-		
-		// ***************************************************************
-		// Fill in your code here!
-		// ***************************************************************
-
-		// open audio stream
-		
-		// get format
-		
-		// get decoded format
-		
-		// get decoded audio input stream
- 
-		return din;
+		return AudioUtil.openDecodedAudioInputStream(input,
+				AudioFormat.Encoding.PCM_SIGNED);
 	}
 
 	/**
@@ -107,19 +97,39 @@ public class AudioPlayer {
 	private void rawplay(AudioInputStream audio) throws IOException,
 			LineUnavailableException {
 
-		
-		
 		// ***************************************************************
 		// Fill in your code here!
 		// ***************************************************************
 
-		// get audio format
-		
-		// get a source data line
-		
-		// read samples from audio and write them to the data line 
+		AudioFormat format = null;
+		DataLine.Info info = null;
+		SourceDataLine sdl = null;
 
-		// properly close the line!
+		// get audio format
+		format = audio.getFormat();
+
+		// get a source data line
+		info = new DataLine.Info(SourceDataLine.class, format);
+		sdl = (SourceDataLine) AudioSystem.getLine(info);
+
+		// read samples from audio and write them to the data line
+		sdl.open(format);
+		sdl.start();
+
+		// 100kB Buffer-Size
+		byte[] buffer = new byte[102400];
+		int bytes_read = 0;
+
+		while (bytes_read != -1) {
+			bytes_read = audio.read(buffer, 0, buffer.length);
+
+			if (bytes_read != -1) {
+				sdl.write(buffer, 0, bytes_read);
+			}
+		}
+
+		// properly close the line!;
+		sdl.close();
 	}
 
 	/**

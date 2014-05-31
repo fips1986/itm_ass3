@@ -32,7 +32,8 @@ public class IOUtil {
 	/**
 	 * Reads a (character UTF-8) file into a string.
 	 */
-	public static String readFile(File f) throws IOException, FileNotFoundException {
+	public static String readFile(File f) throws IOException,
+			FileNotFoundException {
 		FileInputStream fis = null;
 		try {
 			fis = new FileInputStream(f);
@@ -42,7 +43,8 @@ public class IOUtil {
 				try {
 					fis.close();
 				} catch (Exception e0) {
-					System.err.println("IOUtil ERROR: cannot close stream on " + f);
+					System.err.println("IOUtil ERROR: cannot close stream on "
+							+ f);
 				}
 			fis = null;
 		}
@@ -51,7 +53,8 @@ public class IOUtil {
 	/**
 	 * Reads (character) data from the passed file input stream into a string.
 	 */
-	public static String readFile(FileInputStream stream) throws IOException, FileNotFoundException {
+	public static String readFile(FileInputStream stream) throws IOException,
+			FileNotFoundException {
 		return readFile(stream, "UTF-8");
 	}
 
@@ -65,8 +68,8 @@ public class IOUtil {
 	 *            http://java.sun.com/javase/6/docs
 	 *            /api/java/nio/charset/Charset.html)
 	 */
-	public static String readFile(FileInputStream stream, String charsetString) throws IOException,
-			FileNotFoundException {
+	public static String readFile(FileInputStream stream, String charsetString)
+			throws IOException, FileNotFoundException {
 		try {
 			FileChannel fc = stream.getChannel();
 
@@ -111,11 +114,13 @@ public class IOUtil {
 	 *            the file to write to - will be overwritten if it already
 	 *            exists.
 	 */
-	public static void writeFile(StringBuffer outString, File outFile) throws IOException {
+	public static void writeFile(StringBuffer outString, File outFile)
+			throws IOException {
 		FileOutputStream fos = null;
 		try {
 			fos = new FileOutputStream(outFile);
-			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos, "UTF-8"));
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos,
+					"UTF-8"));
 			bw.write(outString.toString(), 0, outString.length());
 			bw.close();
 		} finally {
@@ -123,7 +128,8 @@ public class IOUtil {
 				try {
 					fos.close();
 				} catch (IOException e0) {
-					System.err.println("IOUtil ERROR: cannot close stream on " + outFile);
+					System.err.println("IOUtil ERROR: cannot close stream on "
+							+ outFile);
 				}
 		}
 	}
