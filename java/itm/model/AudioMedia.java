@@ -248,7 +248,7 @@ public class AudioMedia extends AbstractMedia {
 				this.setGenre(line.substring("genre: ".length()));
 
 			} else if (line.startsWith("frequency: ")) {
-				this.setFrequency(Integer.parseInt(line.substring("frequency: ".length())));
+				this.setFrequency(Float.parseFloat(line.substring("frequency: ".length())));
 
 			} else if (line.startsWith("bitrate: ")) {
 				this.setBitrate(Integer.parseInt(line.substring("bitrate: ".length())));

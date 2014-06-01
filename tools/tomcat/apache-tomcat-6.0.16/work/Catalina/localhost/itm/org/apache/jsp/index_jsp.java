@@ -91,7 +91,20 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
             MediaFactory.init( imageDir, audioDir, videoDir, metadataDir );
             
             // get all media objects
-            ArrayList<AbstractMedia> media = MediaFactory.getMedia();
+            ArrayList<AbstractMedia> media = null;
+            
+            try {
+            	media = MediaFactory.getMedia();
+            	
+            } catch (Exception e) {
+            	
+      out.write(" <p> ");
+      out.print( e.toString() );
+      out.write(" </p> ");
+
+            }
+            
+            int test = 0;
             
             int c=0; // counter for rowbreak after 3 thumbnails.
             // iterate over all available media objects
@@ -105,7 +118,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
             
                 // handle images
                 if ( medium instanceof ImageMedia ) {
-                	 // ***************************************************************
+                	// ***************************************************************
                     //  Fill in your code here!
                     // ***************************************************************
                     
@@ -148,6 +161,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
   
                     } else 
                 if ( medium instanceof AudioMedia ) {
+                	test++;
                     // display audio thumbnail and metadata
                     AudioMedia audio = (AudioMedia) medium;
                     
@@ -237,7 +251,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    </div>\n");
       out.write("                ");
 
-                    if ( c % 3 == 0 ) {
+                    if ( c % 4 == 0 ) {
                 
       out.write("\n");
       out.write("                    <div style=\"clear:left\"/>\n");
@@ -249,8 +263,15 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
                 
         
       out.write("\n");
-      out.write("        \n");
-      out.write("    </body>\n");
+      out.write("       \t<p> ");
+      out.print(test );
+      out.write(" </p>\n");
+      out.write("   \t\t<p> ");
+      out.print(media.size() );
+      out.write(" </p>\n");
+      out.write("       \n");
+      out.write("       \n");
+      out.write("\t</body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

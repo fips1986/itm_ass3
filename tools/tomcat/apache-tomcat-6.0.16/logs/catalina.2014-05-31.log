@@ -200,3 +200,29 @@ Mai 31, 2014 4:50:40 AM org.apache.catalina.core.StandardService stop
 Information: Stopping service Catalina
 Mai 31, 2014 4:50:40 AM org.apache.coyote.http11.Http11Protocol destroy
 Information: Stopping Coyote HTTP/1.1 on http-8080
+Mai 31, 2014 5:18:42 AM org.apache.catalina.startup.Embedded initDirs
+Schwerwiegend: Cannot find specified temporary folder at /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/temp
+Mai 31, 2014 5:18:42 AM org.apache.catalina.core.AprLifecycleListener init
+Information: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Mai 31, 2014 5:18:42 AM org.apache.coyote.http11.Http11Protocol init
+Information: Initializing Coyote HTTP/1.1 on http-8080
+Mai 31, 2014 5:18:42 AM org.apache.catalina.startup.Catalina load
+Information: Initialization processed in 406 ms
+Mai 31, 2014 5:18:42 AM org.apache.catalina.core.StandardService start
+Information: Starting service Catalina
+Mai 31, 2014 5:18:42 AM org.apache.catalina.core.StandardEngine start
+Information: Starting Servlet Engine: Apache Tomcat/6.0.16
+Mai 31, 2014 5:18:42 AM org.apache.coyote.http11.Http11Protocol start
+Information: Starting Coyote HTTP/1.1 on http-8080
+Mai 31, 2014 5:18:42 AM org.apache.jk.common.ChannelSocket init
+Information: JK: ajp13 listening on /0.0.0.0:8009
+Mai 31, 2014 5:18:42 AM org.apache.jk.server.JkMain start
+Information: Jk running ID=0 time=0/18  config=null
+Mai 31, 2014 5:18:42 AM org.apache.catalina.startup.Catalina start
+Information: Server startup in 396 ms
+Mai 31, 2014 5:19:38 AM org.apache.coyote.http11.Http11Protocol pause
+Information: Pausing Coyote HTTP/1.1 on http-8080
+Mai 31, 2014 5:19:39 AM org.apache.catalina.core.StandardService stop
+Information: Stopping service Catalina
+Mai 31, 2014 5:19:39 AM org.apache.coyote.http11.Http11Protocol destroy
+Information: Stopping Coyote HTTP/1.1 on http-8080

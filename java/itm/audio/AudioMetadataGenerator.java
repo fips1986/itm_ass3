@@ -50,9 +50,10 @@ public class AudioMetadataGenerator {
 	 *            indicates whether existing metadata files should be
 	 *            overwritten or not
 	 * @return a list of the created media objects (images)
+	 * @throws Exception 
 	 */
 	public ArrayList<AudioMedia> batchProcessAudio(File input, File output,
-			boolean overwrite) throws IOException {
+			boolean overwrite) throws Exception {
 		if (!input.exists())
 			throw new IOException("Input file " + input + " was not found!");
 		if (!output.exists())
@@ -76,9 +77,10 @@ public class AudioMetadataGenerator {
 								+ " in " + output);
 						ret.add(result);
 					} catch (Exception e0) {
-						System.err
+						throw new Exception();
+						/*System.err
 								.println("Error when creating metadata from file "
-										+ input + " : " + e0.toString());
+										+ input + " : " + e0.toString());*/
 					}
 
 				}
