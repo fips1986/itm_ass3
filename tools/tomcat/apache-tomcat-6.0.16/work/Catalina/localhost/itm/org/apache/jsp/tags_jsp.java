@@ -88,9 +88,21 @@ public final class tags_jsp extends org.apache.jasper.runtime.HttpJspBase
             //  Fill in your code here!
             // ***************************************************************
 
-            // get "tag" parameter   
+            // get "tag" parameter 
+            tag = (String) request.getParameter("tag");
             
             // if no param was passed, forward to index.jsp (using jsp:forward)
+            if (tag == null) {
+            	
+      out.write(' ');
+      if (true) {
+        _jspx_page_context.forward("index.jsp");
+        return;
+      }
+      out.write(' ');
+
+            }
+        		
 
         
       out.write("\n");

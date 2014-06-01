@@ -34,9 +34,7 @@
             // get all media objects
             ArrayList<AbstractMedia> media = MediaFactory.getMedia();
             
-			int test = 0;
-            
-            int c=0; // counter for rowbreak after 3 thumbnails.
+            int c=0; // counter for rowbreak after 4 thumbnails.
             // iterate over all available media objects
             for ( AbstractMedia medium : media ) {
                 c++;
@@ -122,9 +120,5 @@
                 } // for 
                 
         %>
-       	<p> <%=test %> </p>
-   		<p> <%=media.size() %> </p>
-       
-       
 	</body>
 </html>

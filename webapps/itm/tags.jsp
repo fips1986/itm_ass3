@@ -28,9 +28,14 @@
             //  Fill in your code here!
             // ***************************************************************
 
-            // get "tag" parameter   
+            // get "tag" parameter 
+            tag = (String) request.getParameter("tag");
             
             // if no param was passed, forward to index.jsp (using jsp:forward)
+            if (tag == null) {
+            	%> <jsp:forward page="index.jsp"></jsp:forward> <%
+            }
+        		
 
         %>
 
