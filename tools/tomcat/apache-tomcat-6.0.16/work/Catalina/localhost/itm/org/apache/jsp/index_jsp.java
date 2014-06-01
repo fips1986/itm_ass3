@@ -91,20 +91,9 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
             MediaFactory.init( imageDir, audioDir, videoDir, metadataDir );
             
             // get all media objects
-            ArrayList<AbstractMedia> media = null;
+            ArrayList<AbstractMedia> media = MediaFactory.getMedia();
             
-            try {
-            	media = MediaFactory.getMedia();
-            	
-            } catch (Exception e) {
-            	
-      out.write(" <p> ");
-      out.print( e.toString() );
-      out.write(" </p> ");
-
-            }
-            
-            int test = 0;
+			int test = 0;
             
             int c=0; // counter for rowbreak after 3 thumbnails.
             // iterate over all available media objects

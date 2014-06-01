@@ -50,10 +50,10 @@ public class AudioMetadataGenerator {
 	 *            indicates whether existing metadata files should be
 	 *            overwritten or not
 	 * @return a list of the created media objects (images)
-	 * @throws Exception 
+	 * @throws Exception
 	 */
 	public ArrayList<AudioMedia> batchProcessAudio(File input, File output,
-			boolean overwrite) throws Exception {
+			boolean overwrite) throws IOException {
 		if (!input.exists())
 			throw new IOException("Input file " + input + " was not found!");
 		if (!output.exists())
@@ -77,10 +77,9 @@ public class AudioMetadataGenerator {
 								+ " in " + output);
 						ret.add(result);
 					} catch (Exception e0) {
-						throw new Exception();
-						/*System.err
+						System.err
 								.println("Error when creating metadata from file "
-										+ input + " : " + e0.toString());*/
+										+ input + " : " + e0.toString());
 					}
 
 				}
@@ -125,8 +124,7 @@ public class AudioMetadataGenerator {
 	 * @throws ParseException
 	 */
 	protected AudioMedia processAudio(File input, File output, boolean overwrite)
-			throws IOException, IllegalArgumentException,
-			UnsupportedAudioFileException, ParseException {
+			throws Exception {
 		if (!input.exists())
 			throw new IOException("Input file " + input + " was not found!");
 		if (input.isDirectory())
@@ -135,7 +133,7 @@ public class AudioMetadataGenerator {
 			throw new IOException("Output directory " + output + " not found!");
 		if (!output.isDirectory())
 			throw new IOException(output + " is not a directory!");
-
+		
 		// create outputfilename and check whether thumb already exists. All
 		// image metadata files have to start with "aud_" - this is used by the
 		// mediafactory!
@@ -168,7 +166,8 @@ public class AudioMetadataGenerator {
 		media.setChannels(format.getChannels());
 
 		// read file-type specific properties
-		Map<String, Object> fileProps = AudioSystem.getAudioFileFormat(input).properties();
+		Map<String, Object> fileProps = AudioSystem.getAudioFileFormat(input)
+				.properties();
 
 		// you might have to distinguish what properties are available for what
 		// audio format
@@ -191,22 +190,30 @@ public class AudioMetadataGenerator {
 			else if (entry.getKey().equalsIgnoreCase("album"))
 				media.setAlbum((String) entry.getValue());
 
-			else if (entry.getKey().equalsIgnoreCase("track") || entry.getKey().equalsIgnoreCase("mp3.id3tag.track") || entry.getKey().equalsIgnoreCase("ogg.comment.track"))
+			else if (entry.getKey().equalsIgnoreCase("track")
+					|| entry.getKey().equalsIgnoreCase("mp3.id3tag.track")
+					|| entry.getKey().equalsIgnoreCase("ogg.comment.track"))
 				media.setTrack((String) entry.getValue());
 
-			else if (entry.getKey().equalsIgnoreCase("composer") || entry.getKey().equalsIgnoreCase("mp3.id3tag.composer") || entry.getKey().equalsIgnoreCase("ogg.comment.composer"))
+			else if (entry.getKey().equalsIgnoreCase("composer")
+					|| entry.getKey().equalsIgnoreCase("mp3.id3tag.composer")
+					|| entry.getKey().equalsIgnoreCase("ogg.comment.composer"))
 				media.setComposer((String) entry.getValue());
 
-			else if (entry.getKey().equalsIgnoreCase("genre") || entry.getKey().equalsIgnoreCase("mp3.id3tag.genre") || entry.getKey().equalsIgnoreCase("ogg.comment.genre"))
+			else if (entry.getKey().equalsIgnoreCase("genre")
+					|| entry.getKey().equalsIgnoreCase("mp3.id3tag.genre")
+					|| entry.getKey().equalsIgnoreCase("ogg.comment.genre"))
 				media.setGenre((String) entry.getValue());
 		}
 
 		// add a "audio" tag
 		media.addTag("audio");
-		
-		// add a tag corresponding to the filename extension of the file to the media
+
+		// add a tag corresponding to the filename extension of the file to the
+		// media
 		String filename = input.getName();
-		String ext = filename.substring(filename.lastIndexOf(".")+1).toLowerCase();
+		String ext = filename.substring(filename.lastIndexOf(".") + 1)
+				.toLowerCase();
 		media.addTag(ext);
 
 		// close the audio and write the md file.

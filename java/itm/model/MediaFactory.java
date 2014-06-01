@@ -85,10 +85,10 @@ public class MediaFactory {
 	 * Gets a list of all media objects that are tagged with the passed tag. The
 	 * media is loaded only the first time, it is cached in memory for
 	 * successive requests.
+	 * @throws IOException 
 	 * @throws Exception 
 	 */
-	public static ArrayList<AbstractMedia> getMedia(String tag)
-			throws Exception {
+	public static ArrayList<AbstractMedia> getMedia(String tag) throws IOException {
 		if (!initialized)
 			throw new IOException(
 					"error: mediafactory was not initialized yet!");
@@ -117,9 +117,10 @@ public class MediaFactory {
 	 * @param metadataDir
 	 *            this directory should contain all metadata files that describe
 	 *            the media objects.
+	 * @throws IOException 
 	 * @throws Exception 
 	 */
-	protected static ArrayList<AbstractMedia> loadMedia() throws Exception {
+	protected static ArrayList<AbstractMedia> loadMedia() throws IOException {
 		ArrayList<AbstractMedia> ret = new ArrayList<AbstractMedia>();
 
 		// step 1.1: create image thumbnails, do not overwrite if not required
