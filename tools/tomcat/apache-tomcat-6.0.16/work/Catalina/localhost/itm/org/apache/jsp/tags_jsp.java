@@ -73,8 +73,8 @@ public final class tags_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\n");
       out.write("<html>\n");
-      out.write("    <head>\n");
-      out.write("    </head>\n");
+      out.write("\t<head>\n");
+      out.write("\t</head>\n");
       out.write("    <body>\n");
       out.write("\n");
       out.write("        \n");
@@ -120,8 +120,112 @@ public final class tags_jsp extends org.apache.jasper.runtime.HttpJspBase
             // ***************************************************************
         
             // get all media objects that are tagged with the passed tag
+            String basePath = getServletConfig().getServletContext().getRealPath( "media"  );
+    		if ( basePath == null )
+    			throw new NullPointerException( "could not determine base path of media directory! please set manually in JSP file!" );
+    		File base = new File( basePath );
+    		File imageDir = new File( basePath, "img");
+    		File audioDir = new File( basePath, "audio");
+    		File videoDir = new File( basePath, "video");
+    		File metadataDir = new File( basePath, "md");
+    		MediaFactory.init( imageDir, audioDir, videoDir, metadataDir );
+    		
+    		ArrayList<AbstractMedia> media = MediaFactory.getMedia();
             
+        	int c = 0;
+        
             // iterate over all available media objects and display them
+            for(AbstractMedia medium : media) {
+            	ArrayList<String> tags = medium.getTags();
+            	
+            	for(String s : tags) {
+            		
+            		if(s.equals(tag)) {
+            			
+            			if ( medium instanceof ImageMedia ) {
+            	   			ImageMedia img = (ImageMedia) medium;
+           	    
+      out.write("\n");
+      out.write("            \t    \t\t\t<div style=\"width:200px;height:200px;padding:10px;\">\n");
+      out.write("            \t                \t<a id=\"image\" href=\"media/img/");
+      out.print( img.getInstance().getName());
+      out.write("\">\n");
+      out.write("            \t                \t\t<img src=\"media/md/");
+      out.print( img.getInstance().getName() );
+      out.write(".thumb.png\" border=\"0\"/>\n");
+      out.write("            \t                \t</a>\n");
+      out.write("            \t                </div>\n");
+      out.write("            \t");
+  
+            			} else if( medium instanceof AudioMedia ) {
+            	        	// display audio thumbnail and metadata
+            	            AudioMedia audio = (AudioMedia) medium;
+            	
+      out.write("\n");
+      out.write("            \t        \t\t<div style=\"width:200px;height:200px;padding:10px;\">\n");
+      out.write("            \t                \t<br/><br/><br/><br/>\n");
+      out.write("            \t                \t<embed src=\"media/md/");
+      out.print( audio.getInstance().getName() );
+      out.write(".wav\" autostart=\"false\" width=\"150\" height=\"30\" />\n");
+      out.write("            \t                \t<br/>\n");
+      out.write("            \t                \t<a href=\"media/audio/");
+      out.print( audio.getInstance().getName());
+      out.write("\">\n");
+      out.write("            \t                            Download ");
+      out.print( audio.getInstance().getName());
+      out.write("\n");
+      out.write("            \t                    </a>\n");
+      out.write("            \t            \t</div>\n");
+      out.write("          \t\t");
+  
+            			} else if ( medium instanceof VideoMedia ) {
+            	        	// handle videos thumbnail and metadata...
+            	        	VideoMedia video = (VideoMedia) medium;
+            	
+      out.write("\n");
+      out.write("            \t            \t<div style=\"width:200px;height:200px;padding:10px;\">\n");
+      out.write("            \t                \t<a href=\"media/video/");
+      out.print( video.getInstance().getName());
+      out.write("\">\n");
+      out.write("            \t                            \n");
+      out.write("            \t                    \t<object width=\"200\" height=\"200\">\n");
+      out.write("            \t                            <param name=\"movie\" value=\"media/md/");
+      out.print( video.getInstance().getName() );
+      out.write("_thumb.swf\">\n");
+      out.write("            \t                            <embed src=\"media/md/");
+      out.print( video.getInstance().getName() );
+      out.write("_thumb.swf\" width=\"200\" height=\"200\">\n");
+      out.write("            \t                            </embed>\n");
+      out.write("            \t                        </object>\n");
+      out.write("\n");
+      out.write("            \t                    </a>\n");
+      out.write("            \t              \t</div>\n");
+      out.write("            \t               \n");
+      out.write("            \t\t");
+  
+            	     	} else {
+            	        
+            	     	}
+            		
+      out.write("\n");
+      out.write("            \t\t\t\t\n");
+      out.write("            \t    ");
+
+            	            if ( c % 4 == 0 ) {
+            	    
+      out.write("\n");
+      out.write("            \t            \t<div style=\"clear:left\"/></div>\n");
+      out.write("            \t    ");
+
+            	            }
+            	
+      out.write("\n");
+      out.write("            \t\t\t\n");
+      out.write("                ");
+
+            		}
+            	}
+            }
                 
         
       out.write("\n");
