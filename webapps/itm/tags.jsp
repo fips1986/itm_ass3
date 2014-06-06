@@ -1,9 +1,9 @@
-<%@ page import="java.util.*" %>
-<%@ page import="java.io.*" %>
-<%@ page import="java.net.*" %>
-<%@ page import="itm.image.*" %>
-<%@ page import="itm.model.*" %>
-<%@ page import="itm.util.*" %>
+<%@ page import="java.util.*"%>
+<%@ page import="java.io.*"%>
+<%@ page import="java.net.*"%>
+<%@ page import="itm.image.*"%>
+<%@ page import="itm.model.*"%>
+<%@ page import="itm.util.*"%>
 <!--
 /*******************************************************************************
  This file is part of the WM.II.ITM course 2014
@@ -14,13 +14,11 @@
        
 %>
 <html>
-	<head>
-	</head>
-    <body>
+<head>
+</head>
+<body>
 
-        
-        fill in your code here :)
-        <%
+	<%
         
             String tag = null;
 
@@ -33,16 +31,20 @@
             
             // if no param was passed, forward to index.jsp (using jsp:forward)
             if (tag == null) {
-            	%> <jsp:forward page="index.jsp"></jsp:forward> <%
+            	%>
+	<jsp:forward page="index.jsp"></jsp:forward>
+	<%
             }
         		
 
         %>
 
-        <h1>Media that is tagged with <%= tag %></h1>
-        <a href="index.jsp">back</a>
+	<h1>
+		Media that is tagged with
+		<%= tag %></h1>
+	<a href="index.jsp">back</a>
 
-        <%
+	<%
 
             // ***************************************************************
             //  Fill in your code here!
@@ -65,71 +67,87 @@
         
             // iterate over all available media objects and display them
             for(AbstractMedia medium : media) {
-            	c++;
             	ArrayList<String> tags = medium.getTags();
-            	
+            
+            
             	for(String s : tags) {
             		
             		if(s.equals(tag)) {
+            			c++;
+            			
+            	%>
+                    <div style="width: 300px; height: 300px; padding: 10px; float: left;">
+                <%
             			
             			if ( medium instanceof ImageMedia ) {
             	   			ImageMedia img = (ImageMedia) medium;
            	    %>
-            	    			<div style="width:200px;height:200px;padding:10px;">
-            	                	<a id="image" href="media/img/<%= img.getInstance().getName()%>">
-            	                		<img src="media/md/<%= img.getInstance().getName() %>.thumb.png" border="0"/>
-            	                	</a>
-            	                </div>
-            	<%  
+						<div style="width: 200px; height: 200px; padding: 10px;">
+							<a id="image" href="media/img/<%= img.getInstance().getName()%>">
+								<img src="media/md/<%= img.getInstance().getName() %>.thumb.png"
+									border="0" />
+							</a>
+						</div>
+				<%  
             			} else if( medium instanceof AudioMedia ) {
             	        	// display audio thumbnail and metadata
             	            AudioMedia audio = (AudioMedia) medium;
             	%>
-            	        		<div style="width:200px;height:200px;padding:10px;">
-            	                	<br/><br/><br/><br/>
-            	                	<embed src="media/md/<%= audio.getInstance().getName() %>.wav" autostart="false" width="150" height="30" />
-            	                	<br/>
-            	                	<a href="media/audio/<%= audio.getInstance().getName()%>">
-            	                            Download <%= audio.getInstance().getName()%>
-            	                    </a>
-            	            	</div>
-          		<%  
+						<div style="width: 200px; height: 200px; padding: 10px;">
+							<br />
+							<br />
+							<br />
+							<br />
+							<embed src="media/md/<%= audio.getInstance().getName() %>.wav"
+								autostart="false" width="150" height="30" />
+							<br /> 
+							<a href="media/audio/<%= audio.getInstance().getName()%>">
+								Download <%= audio.getInstance().getName()%>
+							</a>
+						</div>
+				<%  
             			} else if ( medium instanceof VideoMedia ) {
             	        	// handle videos thumbnail and metadata...
             	        	VideoMedia video = (VideoMedia) medium;
             	%>
-            	            	<div style="width:200px;height:200px;padding:10px;">
-            	                	<a href="media/video/<%= video.getInstance().getName()%>">
-            	                            
-            	                    	<object width="200" height="200">
-            	                            <param name="movie" value="media/md/<%= video.getInstance().getName() %>_thumb.swf">
-            	                            <embed src="media/md/<%= video.getInstance().getName() %>_thumb.swf" width="200" height="200">
-            	                            </embed>
-            	                        </object>
+						<div style="width: 200px; height: 200px; padding: 10px;">
+							<a href="media/video/<%= video.getInstance().getName()%>"> 
+								<object width="200" height="200">
+									<param name="movie"
+										value="media/md/<%= video.getInstance().getName() %>_thumb.swf">
+									<embed src="media/md/<%= video.getInstance().getName() %>_thumb.swf"
+										width="200" height="200">
+									</embed>
+								</object>
+							</a>
+						</div>
 
-            	                    </a>
-            	              	</div>
-            	               
-            		<%  
+				<%  
             	     	} else {
             	        
             	     	}
-            		%>
-            				
-            	    <%
-            	            if ( c % 4 == 0 ) {
-            	    %>
-            	            	<div style="clear:left"/></div>
-            	    <%
-            	            }
-            	%>
-            			
-                <%
-            		}
-            	}
-            }
                 
-        %>
-        
-    </body>
+                if ( c % 4 == 0 ) {
+    				%>
+    					<div style="clear: left" /></div>
+    					<p> <%= c %> </p>
+    				<%
+    	            }
+                
+                %>
+                	</div>
+                <%
+            	
+					} // first if
+            	} // second for
+            	
+            	
+	           
+	
+            } // first for
+            
+                
+    %>
+
+</body>
 </html>

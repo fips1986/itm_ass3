@@ -72,10 +72,11 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("\n");
       out.write("<head>\n");
-      out.write("    \n");
-      out.write("    <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\n");
-      out.write("    \n");
-      out.write("    <script type=\"text/javascript\">\n");
+      out.write("\n");
+      out.write("<script\n");
+      out.write("\tsrc=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\n");
+      out.write("\n");
+      out.write("<script type=\"text/javascript\">\n");
       out.write("          \t\t\t\n");
       out.write("    $(document).ready(function() {\n");
       out.write("    \t$(\"#image\").mouseover(function() {\n");
@@ -88,14 +89,14 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    });\n");
       out.write("\n");
       out.write("    </script>\n");
-      out.write("    \n");
+      out.write("\n");
       out.write("</head>\n");
-      out.write("    \n");
+      out.write("\n");
       out.write("<body>\n");
       out.write("\t<h1>Welcome to the ITM media library</h1>\n");
-      out.write("    <a href=\"infovis.jsp\">infovis</a>\n");
-      out.write("         \n");
-      out.write("    ");
+      out.write("\t<a href=\"infovis.jsp\">infovis</a>\n");
+      out.write("\n");
+      out.write("\t");
 
     // get the file paths - this is NOT good style (resources should be loaded via inputstreams...)
     // we use it here for the sake of simplicity.
@@ -121,8 +122,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     	c++;
     
       out.write("\n");
-      out.write("    \t\t<div style=\"width:300px;height:300px;padding:10px;float:left;\">\n");
-      out.write("    ");
+      out.write("\t<div style=\"width: 300px; height: 300px; padding: 10px; float: left;\">\n");
+      out.write("\t\t");
 
             
     	// handle images
@@ -138,138 +139,153 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     		
     
       out.write("\n");
-      out.write("    \t\t\n");
-      out.write("          \t\t<img src=\"media/md/");
+      out.write("\n");
+      out.write("\t\t<img src=\"media/md/");
       out.print( img.getInstance().getName() );
-      out.write(".hist.png\" id=\"hist\" style=\"display:none;\" />\n");
-      out.write("          \t\t\n");
-      out.write("          \t\t\n");
-      out.write("     \t\t\t<div style=\"width:200px;height:200px;padding:10px;\">\n");
-      out.write("                \t<a id=\"image\" href=\"media/img/");
+      out.write(".hist.png\"\n");
+      out.write("\t\t\tid=\"hist\" style=\"display: none;\" />\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\t\t<div style=\"width: 200px; height: 200px; padding: 10px;\">\n");
+      out.write("\t\t\t<a id=\"image\" href=\"media/img/");
       out.print( img.getInstance().getName());
       out.write("\">\n");
-      out.write("                \t\t<img src=\"media/md/");
+      out.write("\t\t\t\t<img src=\"media/md/");
       out.print( img.getInstance().getName() );
-      out.write(".thumb.png\" border=\"0\"/>\n");
-      out.write("                \t</a>\n");
-      out.write("                </div>\n");
-      out.write("                <div>\n");
-      out.write("                \tName: ");
+      out.write(".thumb.png\"\n");
+      out.write("\t\t\t\tborder=\"0\" />\n");
+      out.write("\t\t\t</a>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t<div>\n");
+      out.write("\t\t\tName:\n");
+      out.write("\t\t\t");
       out.print( img.getName() );
-      out.write("<br/>\n");
-      out.write("                    Dimensions: ");
+      out.write("<br /> Dimensions:\n");
+      out.write("\t\t\t");
       out.print( img.getWidth() );
       out.write('x');
       out.print( img.getHeight() );
-      out.write("px<br/>\n");
-      out.write("                    Tags: ");
+      out.write("px<br /> Tags:\n");
+      out.write("\t\t\t");
  for ( String t : img.getTags() ) { 
       out.write("<a href=\"tags.jsp?tag=");
       out.print( t );
       out.write('"');
       out.write('>');
       out.print( t );
-      out.write("</a> ");
+      out.write("</a>\n");
+      out.write("\t\t\t");
  } 
-      out.write("<br/>\n");
-      out.write("                </div>\n");
-      out.write("                    \n");
-      out.write("\t");
+      out.write("<br />\n");
+      out.write("\t\t</div>\n");
+      out.write("\n");
+      out.write("\t\t");
   
 		} else if( medium instanceof AudioMedia ) {
         	// display audio thumbnail and metadata
             AudioMedia audio = (AudioMedia) medium;
 	
       out.write("\n");
-      out.write("        \t\t<div style=\"width:200px;height:200px;padding:10px;\">\n");
-      out.write("                \t<br/><br/><br/><br/>\n");
-      out.write("                \t<embed src=\"media/md/");
+      out.write("\t\t<div style=\"width: 200px; height: 200px; padding: 10px;\">\n");
+      out.write("\t\t\t<br />\n");
+      out.write("\t\t\t<br />\n");
+      out.write("\t\t\t<br />\n");
+      out.write("\t\t\t<br />\n");
+      out.write("\t\t\t<embed src=\"media/md/");
       out.print( audio.getInstance().getName() );
-      out.write(".wav\" autostart=\"false\" width=\"150\" height=\"30\" />\n");
-      out.write("                \t<br/>\n");
-      out.write("                \t<a href=\"media/audio/");
+      out.write(".wav\"\n");
+      out.write("\t\t\t\tautostart=\"false\" width=\"150\" height=\"30\" />\n");
+      out.write("\t\t\t<br /> <a href=\"media/audio/");
       out.print( audio.getInstance().getName());
       out.write("\">\n");
-      out.write("                            Download ");
+      out.write("\t\t\t\tDownload ");
       out.print( audio.getInstance().getName());
       out.write("\n");
-      out.write("                    </a>\n");
-      out.write("            \t</div>\n");
-      out.write("                <div>\n");
-      out.write("               \t\tName: ");
+      out.write("\t\t\t</a>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t<div>\n");
+      out.write("\t\t\tName:\n");
+      out.write("\t\t\t");
       out.print( audio.getName() );
-      out.write("<br/>\n");
-      out.write("                    Duration: ");
+      out.write("<br /> Duration:\n");
+      out.write("\t\t\t");
       out.print( audio.getDuration() );
-      out.write("<br/>\n");
-      out.write("                    Tags: ");
+      out.write("<br /> Tags:\n");
+      out.write("\t\t\t");
  for ( String t : audio.getTags() ) { 
-      out.write("<a href=\"tags.jsp?tag=");
+      out.write("<a\n");
+      out.write("\t\t\t\thref=\"tags.jsp?tag=");
       out.print( t );
       out.write('"');
       out.write('>');
       out.print( t );
-      out.write("</a> ");
+      out.write("</a>\n");
+      out.write("\t\t\t");
  } 
-      out.write("<br/>\n");
-      out.write("                </div>\n");
-      out.write("\t");
+      out.write("<br />\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t");
   
 		} else if ( medium instanceof VideoMedia ) {
         	// handle videos thumbnail and metadata...
         	VideoMedia video = (VideoMedia) medium;
     
       out.write("\n");
-      out.write("            \t<div style=\"width:200px;height:200px;padding:10px;\">\n");
-      out.write("                \t<a href=\"media/video/");
+      out.write("\t\t<div style=\"width: 200px; height: 200px; padding: 10px;\">\n");
+      out.write("\t\t\t<a href=\"media/video/");
       out.print( video.getInstance().getName());
-      out.write("\">\n");
-      out.write("                            \n");
-      out.write("                    \t<object width=\"200\" height=\"200\">\n");
-      out.write("                            <param name=\"movie\" value=\"media/md/");
+      out.write("\"> <object\n");
+      out.write("\t\t\t\t\twidth=\"200\" height=\"200\">\n");
+      out.write("\t\t\t\t\t<param name=\"movie\"\n");
+      out.write("\t\t\t\t\t\tvalue=\"media/md/");
       out.print( video.getInstance().getName() );
       out.write("_thumb.swf\">\n");
-      out.write("                            <embed src=\"media/md/");
+      out.write("\t\t\t\t\t<embed\n");
+      out.write("\t\t\t\t\t\tsrc=\"media/md/");
       out.print( video.getInstance().getName() );
-      out.write("_thumb.swf\" width=\"200\" height=\"200\">\n");
-      out.write("                            </embed>\n");
-      out.write("                        </object>\n");
+      out.write("_thumb.swf\"\n");
+      out.write("\t\t\t\t\t\twidth=\"200\" height=\"200\">\n");
+      out.write("\t\t\t\t\t</embed>\n");
+      out.write("\t\t\t\t</object>\n");
       out.write("\n");
-      out.write("                    </a>\n");
-      out.write("              \t</div>\n");
-      out.write("                <div>\n");
-      out.write("                \tName: <a href=\"media/video/");
+      out.write("\t\t\t</a>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t<div>\n");
+      out.write("\t\t\tName: <a href=\"media/video/");
       out.print( video.getInstance().getName());
       out.write('"');
       out.write('>');
       out.print( video.getName() );
-      out.write("</a><br/>\n");
-      out.write("                    Tags: ");
+      out.write("</a><br />\n");
+      out.write("\t\t\tTags:\n");
+      out.write("\t\t\t");
  for ( String t : video.getTags() ) { 
-      out.write("<a href=\"tags.jsp?tag=");
+      out.write("<a\n");
+      out.write("\t\t\t\thref=\"tags.jsp?tag=");
       out.print( t );
       out.write('"');
       out.write('>');
       out.print( t );
-      out.write("</a> ");
+      out.write("</a>\n");
+      out.write("\t\t\t");
  } 
-      out.write("<br/>\n");
-      out.write("                </div>\n");
-      out.write("\t");
+      out.write("<br />\n");
+      out.write("\t\t</div>\n");
+      out.write("\t\t");
   
      	} else {
         
      	}
 	
       out.write("\n");
-      out.write("\t\t\t</div>\n");
-      out.write("    ");
+      out.write("\t</div>\n");
+      out.write("\t");
 
             if ( c % 4 == 0 ) {
     
       out.write("\n");
-      out.write("            \t<div style=\"clear:left\"/></div>\n");
-      out.write("    ");
+      out.write("\t<div style=\"clear: left\" /></div>\n");
+      out.write("\t");
 
             }
 
