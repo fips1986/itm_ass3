@@ -8,6 +8,7 @@ package itm.image;
 import itm.model.ImageMedia;
 import itm.model.MediaFactory;
 import itm.util.IOUtil;
+import itm.util.ImageUtil;
 
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;
@@ -26,7 +27,7 @@ import javax.imageio.ImageIO;
     If the input file or the output directory do not exist, an exception is thrown.
  */
 public class ImageMetadataGenerator {
-
+	
 	/**
         Constructor.
 	 */
@@ -145,6 +146,13 @@ public class ImageMetadataGenerator {
 			// set number of (color) components
 			media.setNumComponents(cm.getNumComponents());
 			media.setNumColorComponents(cm.getNumColorComponents());
+			
+			if(ImageUtil.getDominantColor(image) == ImageUtil.RED)
+				media.addTag("red");
+			else if(ImageUtil.getDominantColor(image) == ImageUtil.GREEN)
+				media.addTag("green");
+			else if(ImageUtil.getDominantColor(image) == ImageUtil.BLUE)
+				media.addTag("blue");
 		}
 
 		IOUtil.writeFile(media.serializeObject(), outputFile);

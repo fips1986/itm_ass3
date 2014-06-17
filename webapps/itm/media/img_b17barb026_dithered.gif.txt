@@ -1,5 +1,5 @@
 type: image
-file: /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif
+file: /home/philipp/Studium/2014_SS/ITM/assignment3/webapps/itm/media/img/b17barb026_dithered.gif
 name: b17barb026_dithered.gif
 size: 323483 bytes (323kB)
 tags: image,gif,red,

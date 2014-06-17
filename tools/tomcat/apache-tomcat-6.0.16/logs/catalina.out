@@ -10658,3 +10658,1489 @@ converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomc
 converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.hist.png
 converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.hist.png
 converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.hist.png
+Jun 17, 2014 2:31:50 PM org.apache.coyote.http11.Http11Protocol pause
+Information: Pausing Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 2:31:51 PM org.apache.catalina.core.StandardService stop
+Information: Stopping service Catalina
+Jun 17, 2014 2:31:51 PM org.apache.coyote.http11.Http11Protocol destroy
+Information: Stopping Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 2:32:07 PM org.apache.catalina.core.AprLifecycleListener init
+Information: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jun 17, 2014 2:32:07 PM org.apache.coyote.http11.Http11Protocol init
+Information: Initializing Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 2:32:07 PM org.apache.catalina.startup.Catalina load
+Information: Initialization processed in 299 ms
+Jun 17, 2014 2:32:07 PM org.apache.catalina.core.StandardService start
+Information: Starting service Catalina
+Jun 17, 2014 2:32:07 PM org.apache.catalina.core.StandardEngine start
+Information: Starting Servlet Engine: Apache Tomcat/6.0.16
+Jun 17, 2014 2:32:07 PM org.apache.coyote.http11.Http11Protocol start
+Information: Starting Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 2:32:08 PM org.apache.jk.common.ChannelSocket init
+Information: JK: ajp13 listening on /0.0.0.0:8009
+Jun 17, 2014 2:32:08 PM org.apache.jk.server.JkMain start
+Information: Jk running ID=0 time=0/14  config=null
+Jun 17, 2014 2:32:08 PM org.apache.catalina.startup.Catalina start
+Information: Server startup in 299 ms
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b2seaanimals005.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b2seaanimals005.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_goat11.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_goat11.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b9nature_plants064.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b9nature_plants064.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b20nature_plants245.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b20nature_plants245.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/underwater_rugby.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/underwater_rugby.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox_dithered.bmp.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1shell008.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1shell008.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky5m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky5m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b3_seaanimals014.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b3_seaanimals014.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/zebra3m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/zebra3m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026_dithered.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/peafowl_picture1.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/peafowl_picture1.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.thumb.png
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati.JPG.hist.png
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b2seaanimals005.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b2seaanimals005.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.gif.hist.png
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_goat11.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_goat11.JPG.hist.png
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b9nature_plants064.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b9nature_plants064.jpg.hist.png
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b20nature_plants245.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b20nature_plants245.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.gif.hist.png
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/underwater_rugby.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/underwater_rugby.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox_dithered.bmp.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1shell008.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1shell008.jpg.hist.png
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.ArrayIndexOutOfBoundsException: 0
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/adios.wav to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/adios.wav.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/kahvi139a_dalekk-modular.ogg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/kahvi139a_dalekk-modular.ogg.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/welle.wav to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/welle.wav.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky5m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky5m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Hombre.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Hombre.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b3_seaanimals014.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b3_seaanimals014.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/FireFire.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/FireFire.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Amazon.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Amazon.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/This is what it feels like.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/This is what it feels like.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/zebra3m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/zebra3m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Epoq-Lepidoptera.ogg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Epoq-Lepidoptera.ogg.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/DashTheCurry[Skit].mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/DashTheCurry[Skit].mp3.wav
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/adios.wav in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/kahvi139a_dalekk-modular.ogg in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/welle.wav in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Hombre.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/FireFire.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Amazon.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.jpg.hist.png
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/This is what it feels like.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Epoq-Lepidoptera.ogg in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/DashTheCurry[Skit].mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026_dithered.gif.hist.png
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/space.flv to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/peafowl_picture1.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/peafowl_picture1.JPG.hist.png
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/DREIZEHN.AVI to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+2014-06-17 14:32:21,578 [http-8080-1] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+Error processing file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video : java.lang.RuntimeException: error Die Operation ist nicht erlaubt, failed to write trailer to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/dutch.asf_thumb.swf
+2014-06-17 14:32:21,587 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f1df935e460] Header missing
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/panda.avi to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/space.flv in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/DREIZEHN.AVI in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/dutch.asf in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+2014-06-17 14:32:21,665 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f1dfbc0e500] Header missing
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/panda.avi in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026.jpg.hist.png
+2014-06-17 14:32:21,738 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 14:32:21,739 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 14:32:21,740 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 14:32:21,740 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 14:32:21,745 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 14:32:21,745 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 14:32:21,745 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.hist.png
+Jun 17, 2014 2:33:41 PM org.apache.coyote.http11.Http11Protocol pause
+Information: Pausing Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 2:33:42 PM org.apache.catalina.core.StandardService stop
+Information: Stopping service Catalina
+Jun 17, 2014 2:33:42 PM org.apache.coyote.http11.Http11Protocol destroy
+Information: Stopping Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 2:40:41 PM org.apache.catalina.core.AprLifecycleListener init
+Information: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jun 17, 2014 2:40:41 PM org.apache.coyote.http11.Http11Protocol init
+Information: Initializing Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 2:40:41 PM org.apache.catalina.startup.Catalina load
+Information: Initialization processed in 297 ms
+Jun 17, 2014 2:40:41 PM org.apache.catalina.core.StandardService start
+Information: Starting service Catalina
+Jun 17, 2014 2:40:41 PM org.apache.catalina.core.StandardEngine start
+Information: Starting Servlet Engine: Apache Tomcat/6.0.16
+Jun 17, 2014 2:40:41 PM org.apache.coyote.http11.Http11Protocol start
+Information: Starting Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 2:40:41 PM org.apache.jk.common.ChannelSocket init
+Information: JK: ajp13 listening on /0.0.0.0:8009
+Jun 17, 2014 2:40:41 PM org.apache.jk.server.JkMain start
+Information: Jk running ID=0 time=0/14  config=null
+Jun 17, 2014 2:40:41 PM org.apache.catalina.startup.Catalina start
+Information: Server startup in 295 ms
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b2seaanimals005.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b2seaanimals005.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_goat11.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_goat11.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b9nature_plants064.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b9nature_plants064.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b20nature_plants245.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b20nature_plants245.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/underwater_rugby.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/underwater_rugby.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox_dithered.bmp.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1shell008.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1shell008.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky5m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky5m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b3_seaanimals014.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b3_seaanimals014.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/zebra3m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/zebra3m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026_dithered.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/peafowl_picture1.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/peafowl_picture1.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b2seaanimals005.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b2seaanimals005.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_goat11.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_goat11.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b9nature_plants064.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b9nature_plants064.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b20nature_plants245.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b20nature_plants245.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/underwater_rugby.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/underwater_rugby.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox_dithered.bmp.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1shell008.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1shell008.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky5m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky5m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b3_seaanimals014.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b3_seaanimals014.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/zebra3m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/zebra3m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026_dithered.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/peafowl_picture1.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/peafowl_picture1.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.thumb.png
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+Error converting /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img : java.lang.IllegalArgumentException: More than one component per pixel
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/adios.wav to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/adios.wav.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/kahvi139a_dalekk-modular.ogg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/kahvi139a_dalekk-modular.ogg.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/welle.wav to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/welle.wav.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Hombre.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Hombre.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/FireFire.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/FireFire.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Amazon.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Amazon.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/This is what it feels like.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/This is what it feels like.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Epoq-Lepidoptera.ogg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Epoq-Lepidoptera.ogg.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/DashTheCurry[Skit].mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/DashTheCurry[Skit].mp3.wav
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/adios.wav in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/kahvi139a_dalekk-modular.ogg in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/welle.wav in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Hombre.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/FireFire.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Amazon.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/This is what it feels like.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Epoq-Lepidoptera.ogg in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/DashTheCurry[Skit].mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/space.flv to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/DREIZEHN.AVI to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+2014-06-17 14:41:02,525 [http-8080-1] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+Error processing file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video : java.lang.RuntimeException: error Die Operation ist nicht erlaubt, failed to write trailer to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/dutch.asf_thumb.swf
+2014-06-17 14:41:02,533 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f4e228589e0] Header missing
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/panda.avi to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/space.flv in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/DREIZEHN.AVI in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/dutch.asf in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+2014-06-17 14:41:02,608 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f4e22ff9400] Header missing
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/panda.avi in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+Jun 17, 2014 3:47:07 PM org.apache.catalina.core.AprLifecycleListener init
+Information: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jun 17, 2014 3:47:07 PM org.apache.coyote.http11.Http11Protocol init
+Schwerwiegend: Error initializing endpoint
+java.net.BindException: Die Adresse wird bereits verwendet:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.init(JIoEndpoint.java:501)
+	at org.apache.coyote.http11.Http11Protocol.init(Http11Protocol.java:176)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1058)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:677)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:795)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:530)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:550)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:260)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:412)
+
+Jun 17, 2014 3:47:07 PM org.apache.catalina.startup.Catalina load
+Schwerwiegend: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.net.BindException: Die Adresse wird bereits verwendet:8080
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1060)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:677)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:795)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:530)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:550)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:260)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:412)
+
+Jun 17, 2014 3:47:07 PM org.apache.catalina.startup.Catalina load
+Information: Initialization processed in 304 ms
+Jun 17, 2014 3:47:07 PM org.apache.catalina.core.StandardService start
+Information: Starting service Catalina
+Jun 17, 2014 3:47:07 PM org.apache.catalina.core.StandardEngine start
+Information: Starting Servlet Engine: Apache Tomcat/6.0.16
+Jun 17, 2014 3:47:07 PM org.apache.coyote.http11.Http11Protocol start
+Schwerwiegend: Error starting endpoint
+java.net.BindException: Die Adresse wird bereits verwendet:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.init(JIoEndpoint.java:501)
+	at org.apache.tomcat.util.net.JIoEndpoint.start(JIoEndpoint.java:515)
+	at org.apache.coyote.http11.Http11Protocol.start(Http11Protocol.java:203)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1131)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:531)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:710)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:578)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+
+Jun 17, 2014 3:47:07 PM org.apache.catalina.startup.Catalina start
+Schwerwiegend: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.net.BindException: Die Adresse wird bereits verwendet:8080
+	at org.apache.catalina.connector.Connector.start(Connector.java:1138)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:531)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:710)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:578)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+
+Jun 17, 2014 3:47:07 PM org.apache.catalina.startup.Catalina start
+Information: Server startup in 234 ms
+Jun 17, 2014 3:47:07 PM org.apache.catalina.core.StandardServer await
+Schwerwiegend: StandardServer.await: create[8005]: 
+java.net.BindException: Die Adresse wird bereits verwendet
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:373)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+
+Jun 17, 2014 3:47:07 PM org.apache.coyote.http11.Http11Protocol pause
+Information: Pausing Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 3:47:07 PM org.apache.catalina.connector.Connector pause
+Schwerwiegend: Protocol handler pause failed
+java.lang.NullPointerException
+	at org.apache.jk.server.JkMain.pause(JkMain.java:679)
+	at org.apache.jk.server.JkCoyoteHandler.pause(JkCoyoteHandler.java:153)
+	at org.apache.catalina.connector.Connector.pause(Connector.java:1073)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:563)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:744)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:628)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:671)
+
+Jun 17, 2014 3:47:08 PM org.apache.catalina.core.StandardService stop
+Information: Stopping service Catalina
+Jun 17, 2014 3:47:08 PM org.apache.catalina.connector.MapperListener destroy
+Warnung: Error unregistering MBeanServerDelegate
+java.lang.NullPointerException
+	at org.apache.catalina.connector.MapperListener.destroy(MapperListener.java:162)
+	at org.apache.catalina.connector.Connector.stop(Connector.java:1179)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:593)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:744)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:628)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:671)
+
+Jun 17, 2014 3:47:08 PM org.apache.coyote.http11.Http11Protocol destroy
+Information: Stopping Coyote HTTP/1.1 on http-8080
+Jun 17, 2014 3:47:08 PM org.apache.catalina.connector.Connector stop
+Schwerwiegend: Coyote connector has not been started
+Jun 17, 2014 3:47:10 PM org.apache.catalina.core.StandardContext reload
+Information: Reloading this Context has started
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b2seaanimals005.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b2seaanimals005.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_goat11.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_goat11.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b9nature_plants064.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b9nature_plants064.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b20nature_plants245.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b20nature_plants245.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/underwater_rugby.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/underwater_rugby.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox_dithered.bmp.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1shell008.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1shell008.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky5m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky5m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b3_seaanimals014.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b3_seaanimals014.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/zebra3m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/zebra3m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026_dithered.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/peafowl_picture1.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/peafowl_picture1.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b2seaanimals005.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b2seaanimals005.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_goat11.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_goat11.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b9nature_plants064.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b9nature_plants064.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b20nature_plants245.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b20nature_plants245.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/underwater_rugby.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/underwater_rugby.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox_dithered.bmp.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1shell008.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1shell008.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky5m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky5m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b3_seaanimals014.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b3_seaanimals014.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/zebra3m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/zebra3m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026_dithered.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/peafowl_picture1.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/peafowl_picture1.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.thumb.png
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/adios.wav to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/adios.wav.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/kahvi139a_dalekk-modular.ogg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/kahvi139a_dalekk-modular.ogg.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/welle.wav to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/welle.wav.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Hombre.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Hombre.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/FireFire.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/FireFire.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Amazon.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Amazon.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/This is what it feels like.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/This is what it feels like.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Epoq-Lepidoptera.ogg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Epoq-Lepidoptera.ogg.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/DashTheCurry[Skit].mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/DashTheCurry[Skit].mp3.wav
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/adios.wav in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/kahvi139a_dalekk-modular.ogg in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/welle.wav in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Hombre.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/FireFire.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Amazon.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/This is what it feels like.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Epoq-Lepidoptera.ogg in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/DashTheCurry[Skit].mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/space.flv to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/DREIZEHN.AVI to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+2014-06-17 15:47:27,242 [http-8080-5] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+Error processing file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video : java.lang.RuntimeException: error Die Operation ist nicht erlaubt, failed to write trailer to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/dutch.asf_thumb.swf
+2014-06-17 15:47:27,251 [http-8080-5] ERROR org.ffmpeg - [mp3 @ 0x7f4dd54d9ba0] Header missing
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/panda.avi to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/space.flv in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/DREIZEHN.AVI in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/dutch.asf in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+2014-06-17 15:47:27,330 [http-8080-5] ERROR org.ffmpeg - [mp3 @ 0x7f4dd62c19c0] Header missing
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/panda.avi in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+2014-06-17 15:47:53,909 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 15:47:53,911 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 15:47:53,912 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 15:47:53,912 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 15:47:53,917 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 15:47:53,917 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 15:47:53,917 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b2seaanimals005.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b2seaanimals005.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_goat11.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_goat11.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b9nature_plants064.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b9nature_plants064.jpg.hist.png
+2014-06-17 15:47:55,271 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 15:47:55,272 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b20nature_plants245.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b20nature_plants245.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/underwater_rugby.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/underwater_rugby.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox_dithered.bmp.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1shell008.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1shell008.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky5m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky5m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b3_seaanimals014.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b3_seaanimals014.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/zebra3m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/zebra3m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026_dithered.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/peafowl_picture1.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/peafowl_picture1.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.hist.png
+Jun 17, 2014 3:55:50 PM org.apache.catalina.core.StandardContext reload
+Information: Reloading this Context has started
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b2seaanimals005.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b2seaanimals005.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_goat11.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_goat11.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b9nature_plants064.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b9nature_plants064.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b20nature_plants245.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b20nature_plants245.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/underwater_rugby.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/underwater_rugby.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox_dithered.bmp.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1shell008.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1shell008.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky5m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky5m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b3_seaanimals014.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b3_seaanimals014.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/zebra3m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/zebra3m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026_dithered.gif.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/peafowl_picture1.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/peafowl_picture1.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.jpg.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.hist.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b2seaanimals005.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b2seaanimals005.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_goat11.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_goat11.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b9nature_plants064.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b9nature_plants064.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b20nature_plants245.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b20nature_plants245.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/underwater_rugby.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/underwater_rugby.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox_dithered.bmp.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1shell008.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1shell008.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky5m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky5m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/the_real_firefox.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b3_seaanimals014.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b3_seaanimals014.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/zebra3m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/zebra3m.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b1murene.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026_dithered.gif.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/peafowl_picture1.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/peafowl_picture1.JPG.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17barb026.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.jpg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/b17maartent1427.jpg.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/picture_of_coati_dithered.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/elephant14m.png.thumb.png
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/blue_sky4m.JPG to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/blue_sky4m.JPG.thumb.png
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17barb026_dithered.gif to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/elephant14m.png to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+java.lang.IllegalArgumentException: More than one component per pixel
+	at java.awt.image.ComponentColorModel.getRGBComponent(ComponentColorModel.java:611)
+	at java.awt.image.ComponentColorModel.getRed(ComponentColorModel.java:670)
+	at itm.util.ImageUtil.getDominantColor(Unknown Source)
+	at itm.image.ImageMetadataGenerator.processImage(Unknown Source)
+	at itm.image.ImageMetadataGenerator.batchProcessImages(Unknown Source)
+	at itm.model.MediaFactory.loadMedia(Unknown Source)
+	at itm.model.MediaFactory.getMedia(Unknown Source)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/adios.wav to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/adios.wav.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/kahvi139a_dalekk-modular.ogg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/kahvi139a_dalekk-modular.ogg.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/welle.wav to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/welle.wav.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Hombre.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Hombre.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/FireFire.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/FireFire.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Amazon.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Amazon.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/This is what it feels like.mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/This is what it feels like.mp3.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Epoq-Lepidoptera.ogg to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/Epoq-Lepidoptera.ogg.wav
+converted /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/DashTheCurry[Skit].mp3 to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/DashTheCurry[Skit].mp3.wav
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/adios.wav in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/kahvi139a_dalekk-modular.ogg in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/welle.wav in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Hombre.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/FireFire.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Amazon.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/This is what it feels like.mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/Epoq-Lepidoptera.ogg in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/audio/DashTheCurry[Skit].mp3 in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/space.flv to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/DREIZEHN.AVI to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+2014-06-17 17:00:10,616 [http-8080-7] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+Error processing file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video : java.lang.RuntimeException: error Die Operation ist nicht erlaubt, failed to write trailer to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md/dutch.asf_thumb.swf
+2014-06-17 17:00:10,627 [http-8080-7] ERROR org.ffmpeg - [mp3 @ 0x7f4dcd4caba0] Header missing
+processed file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/panda.avi to /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/space.flv in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/DREIZEHN.AVI in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/dutch.asf in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md
+2014-06-17 17:00:10,728 [http-8080-7] ERROR org.ffmpeg - [mp3 @ 0x7f4dce60a8a0] Header missing
+created metadata for file /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/video/panda.avi in /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/md

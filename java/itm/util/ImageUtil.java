@@ -3,6 +3,7 @@ package itm.util;
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
+import java.awt.image.ColorModel;
 import java.io.File;
 import java.io.IOException;
 
@@ -12,6 +13,10 @@ import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
 
 public class ImageUtil {
+	
+	public final static int RED = 0;
+	public final static int GREEN = 1;
+	public final static int BLUE = 2;
 	
 	/**
 	 * Loads an image from a file
@@ -57,7 +62,6 @@ public class ImageUtil {
 		
 		iw.write(null, new IIOImage(image, null, null), iwp);
 	}
-	
 	
 	/**
 	 * Rotates the image 90 degrees clockwise
@@ -140,5 +144,43 @@ public class ImageUtil {
 		AffineTransformOp op = new AffineTransformOp(tx, AffineTransformOp.TYPE_BILINEAR);
 		
 		return op.filter(image, canvas);
+	}
+	
+	/**
+	 * returns the dominant Color of an Image
+	 */
+	public static int getDominantColor(BufferedImage image) {
+		int red = 0;
+		int green = 0;
+		int blue = 0;
+		
+		ColorModel model = image.getColorModel();
+		
+		int[] pixels = image.getRGB(0, 0, image.getWidth(), image.getHeight(), null, 0, image.getWidth());
+		
+		//System.out.println(model.getNumColorComponents());
+		
+		for(int i = 0; i < image.getWidth(); i++) {
+			
+			for(int j = 0; j < image.getHeight(); j++) {
+				
+				int rgb = image.getRGB(i, j);
+			}
+		}
+		
+		for(int i = 0; i < pixels.length; i++) {
+			red += model.getRed(pixels[i]);
+			green += model.getGreen(pixels[i]);
+			blue += model.getBlue(pixels[i]);
+		}
+			
+		if(red > green && red > blue)
+			return RED;
+		else if(green > red && green > blue)
+			return GREEN;
+		else if(blue > red && blue > green)
+			return BLUE;
+		else
+			return -1;
 	}
 }

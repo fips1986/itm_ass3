@@ -1,5 +1,5 @@
 type: image
-file: /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/picture_of_coati_dithered.png
+file: /home/philipp/Studium/2014_SS/ITM/assignment3/webapps/itm/media/img/picture_of_coati_dithered.png
 name: picture_of_coati_dithered.png
 size: 144786 bytes (144kB)
 tags: image,png,green,

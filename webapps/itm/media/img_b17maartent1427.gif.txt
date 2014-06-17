@@ -1,5 +1,5 @@
 type: image
-file: /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b17maartent1427.gif
+file: /home/philipp/Studium/2014_SS/ITM/assignment3/webapps/itm/media/img/b17maartent1427.gif
 name: b17maartent1427.gif
 size: 5622 bytes (5kB)
 tags: image,gif,blue,

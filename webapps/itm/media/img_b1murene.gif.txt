@@ -1,5 +1,5 @@
 type: image
-file: /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/b1murene.gif
+file: /home/philipp/Studium/2014_SS/ITM/assignment3/webapps/itm/media/img/b1murene.gif
 name: b1murene.gif
 size: 95967 bytes (95kB)
 tags: image,gif,red,

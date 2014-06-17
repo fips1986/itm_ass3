@@ -1,5 +1,5 @@
 type: image
-file: /home/philipp/Studium/2014_SS/ITM/assignment3/tools/tomcat/apache-tomcat-6.0.16/webapps/../../../../webapps/itm/media/img/the_real_firefox_dithered.bmp
+file: /home/philipp/Studium/2014_SS/ITM/assignment3/webapps/itm/media/img/the_real_firefox_dithered.bmp
 name: the_real_firefox_dithered.bmp
 size: 88778 bytes (88kB)
 tags: image,bmp,green,
