@@ -79,72 +79,64 @@ public final class tags_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\t");
 
-        
-            String tag = null;
+		String tag = null;
 
-            // ***************************************************************
-            //  Fill in your code here!
-            // ***************************************************************
+        // ***************************************************************
+        //  Fill in your code here!
+        // ***************************************************************
 
-            // get "tag" parameter 
-            tag = (String) request.getParameter("tag");
+        // get "tag" parameter 
+        tag = (String) request.getParameter("tag");
             
-            // if no param was passed, forward to index.jsp (using jsp:forward)
-            if (tag == null) {
-            	
-      out.write('\n');
-      out.write('	');
+        // if no param was passed, forward to index.jsp (using jsp:forward)
+        if (tag == null) {
+           	
+      out.write("\n");
+      out.write("\t\t\t");
       if (true) {
         _jspx_page_context.forward("index.jsp");
         return;
       }
       out.write('\n');
       out.write('	');
-
-            }
-        		
-
-        
+      out.write('	');
+ } 
       out.write("\n");
       out.write("\n");
-      out.write("\t<h1>\n");
-      out.write("\t\tMedia that is tagged with\n");
-      out.write("\t\t");
+      out.write("\t<h1>Media that is tagged with ");
       out.print( tag );
       out.write("</h1>\n");
-      out.write("\t<a href=\"index.jsp\">back</a>\n");
+      out.write("\t<a href=\"index.jsp\">back</a> \n");
+      out.write("\t<br />\n");
       out.write("\n");
       out.write("\t");
 
-
-            // ***************************************************************
-            //  Fill in your code here!
-            // ***************************************************************
+		// ***************************************************************
+        //  Fill in your code here!
+        // ***************************************************************
         
-            // get all media objects that are tagged with the passed tag
-            String basePath = getServletConfig().getServletContext().getRealPath( "media"  );
-    		if ( basePath == null )
-    			throw new NullPointerException( "could not determine base path of media directory! please set manually in JSP file!" );
-    		File base = new File( basePath );
-    		File imageDir = new File( basePath, "img");
-    		File audioDir = new File( basePath, "audio");
-    		File videoDir = new File( basePath, "video");
-    		File metadataDir = new File( basePath, "md");
-    		MediaFactory.init( imageDir, audioDir, videoDir, metadataDir );
+        // get all media objects that are tagged with the passed tag
+        String basePath = getServletConfig().getServletContext().getRealPath( "media"  );
+    	if ( basePath == null )
+    		throw new NullPointerException( "could not determine base path of media directory! please set manually in JSP file!" );
+    	File base = new File( basePath );
+    	File imageDir = new File( basePath, "img");
+    	File audioDir = new File( basePath, "audio");
+    	File videoDir = new File( basePath, "video");
+    	File metadataDir = new File( basePath, "md");
+    	MediaFactory.init( imageDir, audioDir, videoDir, metadataDir );
     		
-    		ArrayList<AbstractMedia> media = MediaFactory.getMedia();
+    	ArrayList<AbstractMedia> media = MediaFactory.getMedia();
             
-        	int c = 0;
+        int c = 0;
         
-            // iterate over all available media objects and display them
-            for(AbstractMedia medium : media) {
-            	ArrayList<String> tags = medium.getTags();
+        for(AbstractMedia medium : media) {
+        	ArrayList<String> tags = medium.getTags();
             
-            
-            	for(String s : tags) {
+            for(String s : tags) {
             		
-            		if(s.equals(tag)) {
-            			c++;
+            	if(s.equals(tag)) {
+            		c++;
             			
             	
       out.write("\n");
@@ -152,8 +144,8 @@ public final class tags_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                ");
 
             			
-            			if ( medium instanceof ImageMedia ) {
-            	   			ImageMedia img = (ImageMedia) medium;
+            		if ( medium instanceof ImageMedia ) {
+            	   		ImageMedia img = (ImageMedia) medium;
            	    
       out.write("\n");
       out.write("\t\t\t\t\t\t<div style=\"width: 200px; height: 200px; padding: 10px;\">\n");
@@ -166,11 +158,33 @@ public final class tags_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t\t\t\t\tborder=\"0\" />\n");
       out.write("\t\t\t\t\t\t\t</a>\n");
       out.write("\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t<div>\n");
+      out.write("\t\t\t\t\t\t\tName:\n");
+      out.write("\t\t\t\t\t\t\t");
+      out.print( img.getName() );
+      out.write("<br /> Dimensions:\n");
+      out.write("\t\t\t\t\t\t\t");
+      out.print( img.getWidth() );
+      out.write('x');
+      out.print( img.getHeight() );
+      out.write("px<br /> Tags:\n");
+      out.write("\t\t\t\t\t\t\t");
+ for ( String t : img.getTags() ) { 
+      out.write("<a href=\"tags.jsp?tag=");
+      out.print( t );
+      out.write('"');
+      out.write('>');
+      out.print( t );
+      out.write("</a>\n");
+      out.write("\t\t\t\t\t\t\t");
+ } 
+      out.write("<br />\n");
+      out.write("\t\t\t\t\t\t</div>\n");
       out.write("\t\t\t\t");
   
-            			} else if( medium instanceof AudioMedia ) {
-            	        	// display audio thumbnail and metadata
-            	            AudioMedia audio = (AudioMedia) medium;
+            		} else if( medium instanceof AudioMedia ) {
+            	    	// display audio thumbnail and metadata
+            	        AudioMedia audio = (AudioMedia) medium;
             	
       out.write("\n");
       out.write("\t\t\t\t\t\t<div style=\"width: 200px; height: 200px; padding: 10px;\">\n");
@@ -191,11 +205,31 @@ public final class tags_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\t\t\t\t\t\t\t</a>\n");
       out.write("\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t<div>\n");
+      out.write("\t\t\t\t\t\t\tName:\n");
+      out.write("\t\t\t\t\t\t\t\t");
+      out.print( audio.getName() );
+      out.write("<br /> Duration:\n");
+      out.write("\t\t\t\t\t\t\t\t");
+      out.print( audio.getDuration() );
+      out.write("<br /> Tags:\n");
+      out.write("\t\t\t\t\t\t\t\t");
+ for ( String t : audio.getTags() ) { 
+      out.write("<a href=\"tags.jsp?tag=");
+      out.print( t );
+      out.write('"');
+      out.write('>');
+      out.print( t );
+      out.write("</a>\n");
+      out.write("\t\t\t\t\t\t\t\t");
+ } 
+      out.write("<br />\n");
+      out.write("\t\t\t\t\t\t</div>\n");
       out.write("\t\t\t\t");
   
-            			} else if ( medium instanceof VideoMedia ) {
-            	        	// handle videos thumbnail and metadata...
-            	        	VideoMedia video = (VideoMedia) medium;
+            		} else if ( medium instanceof VideoMedia ) {
+            	    	// handle videos thumbnail and metadata...
+            	        VideoMedia video = (VideoMedia) medium;
             	
       out.write("\n");
       out.write("\t\t\t\t\t\t<div style=\"width: 200px; height: 200px; padding: 10px;\">\n");
@@ -215,39 +249,50 @@ public final class tags_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t\t\t\t</object>\n");
       out.write("\t\t\t\t\t\t\t</a>\n");
       out.write("\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t<div>\n");
+      out.write("\t\t\t\t\t\t\tName: <a href=\"media/video/");
+      out.print( video.getInstance().getName());
+      out.write('"');
+      out.write('>');
+      out.print( video.getName() );
+      out.write("</a><br />\n");
+      out.write("\t\t\t\t\t\t\tTags:\n");
+      out.write("\t\t\t\t\t\t\t");
+ for ( String t : video.getTags() ) { 
+      out.write("<a href=\"tags.jsp?tag=");
+      out.print( t );
+      out.write('"');
+      out.write('>');
+      out.print( t );
+      out.write("</a>\n");
+      out.write("\t\t\t\t\t\t\t");
+ } 
+      out.write("<br />\n");
+      out.write("\t\t\t\t\t\t</div>\n");
       out.write("\n");
       out.write("\t\t\t\t");
   
-            	     	} else {
+            		} else {
             	        
-            	     	}
+            	    }
                 
-                if ( c % 4 == 0 ) {
-    				
+            	} // first if
+				
+            	if ( c % 4 == 0 ) {
+				
       out.write("\n");
-      out.write("    \t\t\t\t\t<div style=\"clear: left\" /></div>\n");
-      out.write("    \t\t\t\t\t<p> ");
-      out.print( c );
-      out.write(" </p>\n");
-      out.write("    \t\t\t\t");
-
-    	            }
-                
-                
+      out.write("\t\t\t\t\t<div style=\"clear: left\" /></div>\n");
+      out.write("\t\t\t\t");
+ } 
       out.write("\n");
-      out.write("                \t</div>\n");
-      out.write("                ");
+      out.write("            \t\t</div>\n");
+      out.write("            \t\n");
+      out.write("            \t");
 
+            } // second for
             	
-					} // first if
-            	} // second for
-            	
-            	
-	           
-	
-            } // first for
+        } // first for
             
-                
     
       out.write("\n");
       out.write("\n");

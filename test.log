@@ -459,3 +459,37 @@
 2014-06-06 20:52:40,649 [http-8080-1] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
 2014-06-06 20:52:40,658 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f4f7711c8a0] Header missing
 2014-06-06 20:52:40,733 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f4f779f0c00] Header missing
+2014-06-17 12:38:10,902 [http-8080-1] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+2014-06-17 12:38:10,977 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7fe12183cf60] Header missing
+2014-06-17 12:42:01,658 [http-8080-1] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+2014-06-17 12:42:01,666 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f81cddc24a0] Header missing
+2014-06-17 12:42:01,734 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f818ee32700] Header missing
+2014-06-17 12:42:37,638 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 12:42:37,640 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 12:42:37,644 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 12:42:37,644 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 12:42:37,644 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 12:42:37,644 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 12:42:37,644 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 13:04:11,970 [http-8080-1] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+2014-06-17 13:04:11,978 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f51a618fc80] Header missing
+2014-06-17 13:04:12,047 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7f51a6fa3b00] Header missing
+2014-06-17 13:04:22,604 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 13:04:22,606 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 13:04:22,607 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 13:04:22,607 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 13:04:22,613 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 13:04:22,613 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 13:04:22,613 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 13:06:04,033 [http-8080-1] WARN  com.xuggle.xuggler - writeTrailer() with no matching call to writeHeader() (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:863)
+2014-06-17 13:06:04,041 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7fe99b870a00] Header missing
+2014-06-17 13:06:04,115 [http-8080-1] ERROR org.ffmpeg - [mp3 @ 0x7fe95dbe0e80] Header missing
+2014-06-17 13:06:20,141 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 13:06:20,143 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 13:06:20,144 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 13:06:20,145 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 13:06:20,150 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 13:06:20,150 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2014-06-17 13:06:20,150 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 13:06:31,775 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2014-06-17 13:06:31,775 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
