@@ -1,2 +1,6 @@
 /build
 /bin
+*.log
+tools/tomcat/apache-tomcat-6.0.16/logs
+webapps/itm/media/md
+itm.jar
