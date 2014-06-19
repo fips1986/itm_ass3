@@ -97,8 +97,8 @@
 	-->
 <target name="ImageMetadataGenerator" depends="compile" description="test the ImageMetadataGenerator: example: ant.bat ImageMetadataGenerator -Dinput=media/img/ -Doutput=test/">
 <!-- set default values for properties / overwrite via commandline! -->
-<property name="input" location="../media/img/" />
-<property name="output" location="result/" />
+<property name="input" location="webapps/itm/media/img/" />
+<property name="output" location="webapps/itm/media/md" />
 
 <mkdir dir="${output}" />
 <java classname="itm.image.ImageMetadataGenerator">
