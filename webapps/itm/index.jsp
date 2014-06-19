@@ -14,24 +14,11 @@
 <html>
 
 <head>
-
-<script
-	src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-<script type="text/javascript">
-          			
-    $(document).ready(function() {
-    	$("#image").mouseover(function() {
-    		$("#hist").show();
-    	});
-    	
-    	$("#image").mouseout(function(){
-    		$("#hist").hide();
-    	});
-    });
-
-    </script>
-
+	<title>ITM media library</title>
+	<link href="css/smoothness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery-ui-1.10.4.min.js"></script>
+	<script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -78,22 +65,19 @@
     		
     %>
 
-		<img src="media/md/<%= img.getInstance().getName() %>.hist.png"
-			id="hist" style="display: none;" />
-
-
 		<div style="width: 200px; height: 200px; padding: 10px;">
 			<a id="image" href="media/img/<%= img.getInstance().getName()%>">
-				<img src="media/md/<%= img.getInstance().getName() %>.thumb.png"
-				border="0" />
+				<img src="media/md/<%= img.getInstance().getName() %>.thumb.png" border="0" />
 			</a>
 		</div>
 		<div>
-			Name:
-			<%= img.getName() %><br /> Dimensions:
-			<%= img.getWidth() %>x<%= img.getHeight() %>px<br /> Tags:
-			<% for ( String t : img.getTags() ) { %><a href="tags.jsp?tag=<%= t %>"><%= t %></a>
+			Name: <%= img.getName() %><br />
+			Dimensions: <%= img.getWidth() %>x<%= img.getHeight() %>px<br />
+			Tags:
+			<% for (String t : img.getTags()) { %>
+				<a href="tags.jsp?tag=<%= t %>"><%= t %></a>
 			<% } %><br />
+			<a href="media/md/<%= img.getInstance().getName() %>.hist.png" class="hist">Histogram</a>
 		</div>
 
 		<%  

@@ -72,24 +72,11 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("\n");
       out.write("<head>\n");
-      out.write("\n");
-      out.write("<script\n");
-      out.write("\tsrc=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\n");
-      out.write("\n");
-      out.write("<script type=\"text/javascript\">\n");
-      out.write("          \t\t\t\n");
-      out.write("    $(document).ready(function() {\n");
-      out.write("    \t$(\"#image\").mouseover(function() {\n");
-      out.write("    \t\t$(\"#hist\").show();\n");
-      out.write("    \t});\n");
-      out.write("    \t\n");
-      out.write("    \t$(\"#image\").mouseout(function(){\n");
-      out.write("    \t\t$(\"#hist\").hide();\n");
-      out.write("    \t});\n");
-      out.write("    });\n");
-      out.write("\n");
-      out.write("    </script>\n");
-      out.write("\n");
+      out.write("\t<title>ITM media library</title>\n");
+      out.write("\t<link href=\"css/smoothness/jquery-ui-1.10.4.custom.css\" rel=\"stylesheet\">\n");
+      out.write("\t<script src=\"js/jquery-2.1.1.min.js\"></script>\n");
+      out.write("\t<script src=\"js/jquery-ui-1.10.4.min.js\"></script>\n");
+      out.write("\t<script src=\"js/scripts.js\"></script>\n");
       out.write("</head>\n");
       out.write("\n");
       out.write("<body>\n");
@@ -140,10 +127,10 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     
       out.write("\n");
       out.write("\n");
-      out.write("\t\t<img src=\"media/md/");
+      out.write("\t\t<!-- <img src=\"media/md/");
       out.print( img.getInstance().getName() );
       out.write(".hist.png\"\n");
-      out.write("\t\t\tid=\"hist\" style=\"display: none;\" />\n");
+      out.write("\t\t\tid=\"hist\" style=\"display: none;\" />-->\n");
       out.write("\n");
       out.write("\n");
       out.write("\t\t<div style=\"width: 200px; height: 200px; padding: 10px;\">\n");
@@ -152,23 +139,23 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\">\n");
       out.write("\t\t\t\t<img src=\"media/md/");
       out.print( img.getInstance().getName() );
-      out.write(".thumb.png\"\n");
-      out.write("\t\t\t\tborder=\"0\" />\n");
+      out.write(".thumb.png\" border=\"0\" />\n");
       out.write("\t\t\t</a>\n");
       out.write("\t\t</div>\n");
       out.write("\t\t<div>\n");
-      out.write("\t\t\tName:\n");
-      out.write("\t\t\t");
+      out.write("\t\t\tName: ");
       out.print( img.getName() );
-      out.write("<br /> Dimensions:\n");
-      out.write("\t\t\t");
+      out.write("<br />\n");
+      out.write("\t\t\tDimensions:\t");
       out.print( img.getWidth() );
       out.write('x');
       out.print( img.getHeight() );
-      out.write("px<br /> Tags:\n");
+      out.write("px<br />\n");
+      out.write("\t\t\tTags:\n");
       out.write("\t\t\t");
- for ( String t : img.getTags() ) { 
-      out.write("<a href=\"tags.jsp?tag=");
+ for (String t : img.getTags()) { 
+      out.write("\n");
+      out.write("\t\t\t\t<a href=\"tags.jsp?tag=");
       out.print( t );
       out.write('"');
       out.write('>');
@@ -177,6 +164,10 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t");
  } 
       out.write("<br />\n");
+      out.write("\t\t\t<a href=\"media/md/");
+      out.print( img.getInstance().getName() );
+      out.write(".hist.png\"\n");
+      out.write("\t\t\t\tclass=\"hist\" title=\"whoop\">Histogram</a>\n");
       out.write("\t\t</div>\n");
       out.write("\n");
       out.write("\t\t");
