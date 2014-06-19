@@ -127,12 +127,6 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     
       out.write("\n");
       out.write("\n");
-      out.write("\t\t<!-- <img src=\"media/md/");
-      out.print( img.getInstance().getName() );
-      out.write(".hist.png\"\n");
-      out.write("\t\t\tid=\"hist\" style=\"display: none;\" />-->\n");
-      out.write("\n");
-      out.write("\n");
       out.write("\t\t<div style=\"width: 200px; height: 200px; padding: 10px;\">\n");
       out.write("\t\t\t<a id=\"image\" href=\"media/img/");
       out.print( img.getInstance().getName());
@@ -146,7 +140,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\tName: ");
       out.print( img.getName() );
       out.write("<br />\n");
-      out.write("\t\t\tDimensions:\t");
+      out.write("\t\t\tDimensions: ");
       out.print( img.getWidth() );
       out.write('x');
       out.print( img.getHeight() );
@@ -166,8 +160,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<br />\n");
       out.write("\t\t\t<a href=\"media/md/");
       out.print( img.getInstance().getName() );
-      out.write(".hist.png\"\n");
-      out.write("\t\t\t\tclass=\"hist\" title=\"whoop\">Histogram</a>\n");
+      out.write(".hist.png\" class=\"hist\">Histogram</a>\n");
       out.write("\t\t</div>\n");
       out.write("\n");
       out.write("\t\t");
