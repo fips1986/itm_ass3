@@ -155,8 +155,6 @@ public class ImageMetadataGenerator {
 				media.addTag("green");
 			else if(color == ImageUtil.BLUE)
 				media.addTag("blue");
-			else if(color == ImageUtil.GREY)
-				media.addTag("grey");
 		}
 
 		IOUtil.writeFile(media.serializeObject(), outputFile);
