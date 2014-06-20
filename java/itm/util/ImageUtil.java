@@ -1,9 +1,9 @@
 package itm.util;
 
-import java.awt.Color;
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
+import java.awt.image.ColorModel;
 import java.io.File;
 import java.io.IOException;
 
@@ -155,20 +155,25 @@ public class ImageUtil {
 		int green = 0;
 		int blue = 0;
 		
+		ColorModel model = image.getColorModel();
+		model = ColorModel.getRGBdefault();
+		
 		int[] pixels = image.getRGB(0, 0, image.getWidth(), image.getHeight(), null, 0, image.getWidth());
 		
 		for(int i = 0; i < pixels.length; i++) {
-			Color c = new Color(pixels[i]);
+			int tmp_red = model.getRed(pixels[i]);
+			int tmp_green = model.getGreen(pixels[i]);
+			int tmp_blue = model.getBlue(pixels[i]);
 			
-			red += c.getRed();
-			green += c.getGreen();
-			blue += c.getBlue();
+			if(tmp_red > tmp_green && tmp_red > tmp_blue)
+				red++;
+			else if(tmp_green > tmp_red && tmp_green > tmp_blue)
+				green++;
+			else if(tmp_blue > tmp_red && tmp_blue > tmp_green)
+				blue++;
 		}
 			
-		if (red == green && red == blue) {
-			return GREY;
-			
-		} else if (red >= green && red >= blue) {
+		if (red >= green && red >= blue) {
 			return RED;
 		
 		} else if (green >= red && green >= blue) {
@@ -176,9 +181,8 @@ public class ImageUtil {
 			
 		} else if(blue >= red && blue >= green) {
 			return BLUE;
-			
-		} else {
-			return -1;
-		}
+		
+		} else 
+			return GREY;
 	}
 }

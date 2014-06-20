@@ -147,15 +147,16 @@ public class ImageMetadataGenerator {
 			media.setNumComponents(cm.getNumComponents());
 			media.setNumColorComponents(cm.getNumColorComponents());
 			
-			if (ImageUtil.getDominantColor(image) == ImageUtil.RED) {
+			int color = ImageUtil.getDominantColor(image);
+			
+			if(color == ImageUtil.RED)
 				media.addTag("red");
-
-			} else if (ImageUtil.getDominantColor(image) == ImageUtil.GREEN) {
+			else if(color == ImageUtil.GREEN)
 				media.addTag("green");
-
-			} else if (ImageUtil.getDominantColor(image) == ImageUtil.BLUE) {
+			else if(color == ImageUtil.BLUE)
 				media.addTag("blue");
-			}
+			else if(color == ImageUtil.GREY)
+				media.addTag("grey");
 		}
 
 		IOUtil.writeFile(media.serializeObject(), outputFile);
