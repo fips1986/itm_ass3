@@ -1,0 +1,31 @@
+# What are the shortcomings of our very simple tagging approach?
+
+Die einigen wenigen Tags, die automatisch gesetzt werden, sind zwar schön und gut, aber nicht allzu aussagekräftig: Die Art des Mediums und der Dateityp wären auch ohne Tagging recht einfach zu eruieren.
+Um in den Tags wirklich neue Informationen zu speichern, müssten entweder komplexe Algorithmen angewendet werden, die zB den Ort der Aufnahme aus den EXIF-GPS-Daten ermitteln oder Gesichter erkennen können.
+Zumindest aber wäre zu empfehlen, manuelles Tagging zu erlauben, damit die Medien auch in für Menschen sinnvolle Kategorien eingeordnet werden können.
+
+# What can be said about relationships between tags?
+
+Beim derzeit verwendeten System gibt es keine Überschneidungen zwischen den Tags: Jedes Medium, das mit "jpg" getagged wurde, trägt auch den Tag "image", aber niemals "video" oder "audio".
+Allein der Tag für die dominante Farbe könnte wohl auch für Videos eingesetzt werden, hier stellt sich jedoch die Frage, ob dieser erhebliche Mehraufwand tatsächling einen praktischen Nutzen brächte.
+
+# We used tags for simple "content typing". How can content typing in the sense we did it improve navigation and search in an information system?
+
+Mit der derzeitigen Implementierung können die Medien nur nach einem Tag gefiltert werden; wenn jedoch auch die Suche nach mehreren Tags gleichzeitig möglich gemacht wird (und die Medien mit mehr Tags versehen werden als sie es jetzt sind) lässt sich durch geschickte Kombination alles finden, was das System hergibt.
+
+# Discuss the advantages and limitations of your heuristics
+# Discuss the advantages and limitations of our simple dominant color model
+
+In unserem Algorithmus wird für jeden Pixel bestimmt, ob er mehr Rot-, Grün- oder Blauanteile beherbergt; die Farbe, die die meisten Pixel für sich beanspruchen kann, bestimmt den Tag.
+Das funktioniert recht einfach, liefert aber vielleicht nicht immer die intuitivsten Ergebnisse: Gerade bei geditherten Bildern ist auf den ersten Blick sehr schwer sichtbar, welche Farbe tatsächlich überhand nimmt.
+Graustufen-Pixel (und damit auch Weiß- und Schwarzanteile) fließen nicht in die "Bewertung" ein, da alle Farben gleich stark vertreten sind; daher werden Graustufen-Bilder bei uns auch mit allen 3 Tags versehen.
+
+# What (type of) layout algorithm do we use for the information visualization in this assignment?
+
+From the prefuse javadoc:
+ForceDirectedLayout: Layout that positions graph elements based on a physics simulation of interacting forces; by default, nodes repel each other, edges act as springs, and drag forces (similar to air resistance) are applied.
+
+# What are advantages/disadvantages of the used infovis?
+
+Auf den ersten Blick ist eine recht schöne Clusterbildung zu sehen: Die Tags "image" und "jpg" etwa kommen bei vielen Bildern zusammen vor und rücken daher am Graph eng aneinander.
+Bei der hier verwendeten Anzahl an Medien ist die Visualisierung noch einigermaßen übersichtlich; sollte die Menge jedoch größer werden, ist zu überdenken, ob tatsächlich jedes Medium als eigener Knoten mit teilweise recht langer Beschriftung angezeigt werden soll.
