@@ -155,8 +155,7 @@ public class ImageUtil {
 		int green = 0;
 		int blue = 0;
 		
-		ColorModel model = image.getColorModel();
-		model = ColorModel.getRGBdefault();
+		ColorModel model = ColorModel.getRGBdefault();
 		
 		int[] pixels = image.getRGB(0, 0, image.getWidth(), image.getHeight(), null, 0, image.getWidth());
 		
@@ -173,13 +172,13 @@ public class ImageUtil {
 				blue++;
 		}
 			
-		if (red >= green && red >= blue) {
+		if (red > green && red > blue) {
 			return RED;
 		
-		} else if (green >= red && green >= blue) {
+		} else if (green > red && green > blue) {
 			return GREEN;
 			
-		} else if(blue >= red && blue >= green) {
+		} else if(blue > red && blue > green) {
 			return BLUE;
 		
 		} else 
